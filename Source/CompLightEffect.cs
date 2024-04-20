@@ -1,113 +1,79 @@
-﻿using System;
-using RimWorld;
+﻿using RimWorld;
 using UnityEngine;
 using Verse;
 
 namespace CONN
 {
-	// Token: 0x02000013 RID: 19
 	public class CompLightEffect : HediffComp
 	{
-		// Token: 0x17000002 RID: 2
-		// (get) Token: 0x06000029 RID: 41 RVA: 0x00003134 File Offset: 0x00001334
-		public CompProperties_LightEffect Props
-		{
-			get
-			{
-				return (CompProperties_LightEffect)this.props;
-			}
-		}
+		public CompProperties_LightEffect Props => (CompProperties_LightEffect) props;
 
-		// Token: 0x0600002A RID: 42 RVA: 0x00003154 File Offset: 0x00001354
 		public override void CompPostTick(ref float severityAdjustment)
 		{
-			bool enableMote = CONNMod.settings.enableMote;
-			if (enableMote)
+			if (CONNMod.settings.enableMote)
 			{
-				Pawn pawn = base.Pawn;
-				bool flag = CONNMod.settings.enableMoteDraft && !pawn.Drafted;
-				if (flag)
+				if (CONNMod.settings.enableMoteDraft && !Pawn.Drafted)
 				{
-					this.ClearMote();
+					ClearMote();
 				}
 				else
 				{
-					bool flag2 = pawn != null && pawn.Spawned && !pawn.Dead && !pawn.InBed();
-					if (flag2)
+					if (Pawn != null && Pawn.Spawned && !Pawn.Dead && !Pawn.InBed())
 					{
-						this.CreateOrMoveMote(pawn.TrueCenter());
+						CreateOrMoveMote(Pawn.TrueCenter());
 					}
 					else
 					{
-						this.ClearMote();
+						ClearMote();
 					}
 				}
 			}
 			else
 			{
-				this.ClearMote();
+				ClearMote();
 			}
 		}
 
-		// Token: 0x0600002B RID: 43 RVA: 0x000031E8 File Offset: 0x000013E8
 		public void CreateOrMoveMote(Vector3 pawnPos)
 		{
-			bool flag = this.mote == null;
-			if (flag)
+			if (mote == null)
 			{
-				this.mote = (MoteFlashLight)ThingMaker.MakeThing(this.Props.visualMote, null);
-				this.mote.Scale = 1.9f * this.Props.size;
-				this.mote.exactPosition = pawnPos;
-				GenSpawn.Spawn(this.mote, pawnPos.ToIntVec3(), base.Pawn.Map, WipeMode.Vanish);
+				mote = (MoteFlashLight)ThingMaker.MakeThing(Props.visualMote);
+				mote.Scale = 1.9f * Props.size;
+				mote.exactPosition = pawnPos;
+				GenSpawn.Spawn(mote, pawnPos.ToIntVec3(), Pawn.Map);
 			}
 			else
 			{
-				this.mote.exactPosition = pawnPos;
+				mote.exactPosition = pawnPos;
 			}
 		}
 
-		// Token: 0x0600002C RID: 44 RVA: 0x00003278 File Offset: 0x00001478
-		public virtual void Notify_PawnDied()
+		/// <inheritdoc />
+		public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
 		{
-			MoteFlashLight moteFlashLight = this.mote;
-			if (moteFlashLight != null)
-			{
-				moteFlashLight.DeSpawn(DestroyMode.Vanish);
-			}
+			mote?.DeSpawn();
 		}
 
-		// Token: 0x0600002D RID: 45 RVA: 0x0000328D File Offset: 0x0000148D
 		public override void Notify_PawnKilled()
 		{
-			MoteFlashLight moteFlashLight = this.mote;
-			if (moteFlashLight != null)
-			{
-				moteFlashLight.DeSpawn(DestroyMode.Vanish);
-			}
+			mote?.DeSpawn();
 		}
 
-		// Token: 0x0600002E RID: 46 RVA: 0x000032A2 File Offset: 0x000014A2
 		public override void CompPostPostRemoved()
 		{
-			MoteFlashLight moteFlashLight = this.mote;
-			if (moteFlashLight != null)
-			{
-				moteFlashLight.DeSpawn(DestroyMode.Vanish);
-			}
+			mote?.DeSpawn();
 		}
 
-		// Token: 0x0600002F RID: 47 RVA: 0x000032B8 File Offset: 0x000014B8
 		private void ClearMote()
 		{
-			bool flag = this.mote != null && this.mote.Spawned;
-			if (flag)
+			if (mote != null && mote.Spawned)
 			{
-				this.mote.DeSpawn(DestroyMode.Vanish);
+				mote.DeSpawn();
 			}
-			this.mote = null;
+			mote = null;
 		}
 
-		// Token: 0x0400000D RID: 13
 		private MoteFlashLight mote;
 	}
 }

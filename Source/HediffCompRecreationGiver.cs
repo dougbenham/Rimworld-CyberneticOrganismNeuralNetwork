@@ -1,35 +1,24 @@
-﻿using System;
-using Verse;
+﻿using Verse;
 
 namespace CONN
 {
-	// Token: 0x02000018 RID: 24
 	internal class HediffCompRecreationGiver : HediffComp
 	{
-		// Token: 0x17000005 RID: 5
-		// (get) Token: 0x06000039 RID: 57 RVA: 0x000033B1 File Offset: 0x000015B1
-		public HediffCompProperties_RecreationGiver Props
-		{
-			get
-			{
-				return (HediffCompProperties_RecreationGiver)this.props;
-			}
-		}
+		public HediffCompProperties_RecreationGiver Props => (HediffCompProperties_RecreationGiver)props;
 
-		// Token: 0x0600003A RID: 58 RVA: 0x000033C0 File Offset: 0x000015C0
 		public override void CompPostTick(ref float severityAdjustment)
 		{
-			bool flag = Find.TickManager.TicksGame % this.Props.eachNumberOfTicks == 0;
+			var flag = Find.TickManager.TicksGame % Props.eachNumberOfTicks == 0;
 			if (flag)
 			{
-				bool @bool = Rand.Bool;
+				var @bool = Rand.Bool;
 				if (@bool)
 				{
-					base.Pawn.needs.joy.GainJoy(this.Props.recreationToGive, DefOfs.Gaming_Cerebral);
+					Pawn.needs.joy.GainJoy(Props.recreationToGive, DefOfs.Gaming_Cerebral);
 				}
 				else
 				{
-					base.Pawn.needs.joy.GainJoy(this.Props.recreationToGive, DefOfs.Television);
+					Pawn.needs.joy.GainJoy(Props.recreationToGive, DefOfs.Television);
 				}
 			}
 			base.CompPostTick(ref severityAdjustment);
