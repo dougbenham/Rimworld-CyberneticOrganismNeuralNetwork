@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Trunken_hediff_IndependentEye.label>роботизированный глаз</Trunken_hediff_IndependentEye.label>
+  <Trunken_hediff_IndependentEye.description>Автономный и полностью автоматический роботизированный с радиусом обзора в 270°. Он передаёт информацию в мозг пользователя, подключаясь к центральной нервной системе с помощью специального процессора. Его можно легко извлечь для технического обслуживания. Более продвинутые версии этого глаза способны отделяться от тела и летать рядом, обеспечивая полный контроль и обзор окружающей местности. Такому обзору позавидует даже орёл!</Trunken_hediff_IndependentEye.description>
+  <Trunken_hediff_IndependentEye.labelNoun>роботизированный глаз</Trunken_hediff_IndependentEye.labelNoun>
+
+  <Trunken_hediff_EnergyLink.label>энергосвязь</Trunken_hediff_EnergyLink.label>
+  <Trunken_hediff_EnergyLink.description>Продвинутый искусственный позвоночник из пластали. Биогелевые нервы проходят по всему позвоночнику до золотого ядра, окружённого системой восстановления. Этот позвоночник соответствует по характеристикам настоящему позвоночнику и служит высокотехнологичным соединителем щита, дублирующим его работу.</Trunken_hediff_EnergyLink.description>
+  <Trunken_hediff_EnergyLink.labelNoun>энергосвязь</Trunken_hediff_EnergyLink.labelNoun>
+
+  <Trunken_hediff_OuterBlade.label>выдвижное лезвие</Trunken_hediff_OuterBlade.label>
+  <Trunken_hediff_OuterBlade.description>Боевая трансформация предплечья. Она состоит из механического устройства с телескопическим лезвием за локтевой костью. Лезвие смертельно опасно в бою за счёт пласталевого лезвия, разрезающего любую броню благодаря силе внутренней гидравлики. Лезвие можно втянуть и скрыть.</Trunken_hediff_OuterBlade.description>
+  <Trunken_hediff_OuterBlade.comps.0.tools.0.label>выдвижное лезвие</Trunken_hediff_OuterBlade.comps.0.tools.0.label>
+  <Trunken_hediff_OuterBlade.labelNoun>выдвижное лезвие</Trunken_hediff_OuterBlade.labelNoun>
+
+  <Trunken_hediff_PowerArms.label>силовая рука</Trunken_hediff_PowerArms.label>
+  <Trunken_hediff_PowerArms.description>Боевая замена плеча состоящая из механической руки с сервомоторами и встроенной оружейной платформы. Это улучшение тела значительно увеличивает силу владельца.</Trunken_hediff_PowerArms.description>
+  <Trunken_hediff_PowerArms.comps.0.tools.0.label>рука</Trunken_hediff_PowerArms.comps.0.tools.0.label>
+  <Trunken_hediff_PowerArms.labelNoun>силовая рука</Trunken_hediff_PowerArms.labelNoun>
+
+  <Trunken_hediff_Shadowrunner.label>киберниндзя</Trunken_hediff_Shadowrunner.label>
+  <Trunken_hediff_Shadowrunner.description>Механизированная замена лёгкого, улучшенная фильтрами, удаляющими токсины и яды из воздуха. Этот тип лёгких изначально создавался для проведения опасных операций в условиях опасной окружающей среды. Позже он был улучшен управляемым выпускающим дым устройством, позволяющим эффективно уходить из поля зрения потенциальных врагов.</Trunken_hediff_Shadowrunner.description>
+  <Trunken_hediff_Shadowrunner.labelNoun>устройство очистки лёгких</Trunken_hediff_Shadowrunner.labelNoun>
+
+  <Trunken_hediff_ExoskeletonArmor.label>экзоскелетная броня</Trunken_hediff_ExoskeletonArmor.label>
+  <Trunken_hediff_ExoskeletonArmor.description>Замена всех костей экзоскелетом. Очень и очень опасная операция. Однако результат стоит того: общая защита и устойчивость значительно улучшаются. Экзоскелет станет одним целом с телом и удалить его будет практически невозможно.</Trunken_hediff_ExoskeletonArmor.description>
+  <Trunken_hediff_ExoskeletonArmor.labelNoun>экзоскелетная броня</Trunken_hediff_ExoskeletonArmor.labelNoun>
+
+  <Trunken_hediff_Dermalplating.label>бронекожа</Trunken_hediff_Dermalplating.label>
+  <Trunken_hediff_Dermalplating.description>Замена всей кожи. Очень опасная операция. Однако результат стоит того: общая защита и устойчивость значительно улучшаются. Бронекожа станет одним целом с телом.</Trunken_hediff_Dermalplating.description>
+  <Trunken_hediff_Dermalplating.labelNoun>бронекожа</Trunken_hediff_Dermalplating.labelNoun>
+
+  <Trunken_hediff_Lionheart.label>львиное сердце</Trunken_hediff_Lionheart.label>
+  <Trunken_hediff_Lionheart.description>Продвинутое искусственное сердце с инжекторами адреналина и адаптивной боевой подсистемой.</Trunken_hediff_Lionheart.description>
+  <Trunken_hediff_Lionheart.labelNoun>львиное сердце</Trunken_hediff_Lionheart.labelNoun>
+</LanguageData>

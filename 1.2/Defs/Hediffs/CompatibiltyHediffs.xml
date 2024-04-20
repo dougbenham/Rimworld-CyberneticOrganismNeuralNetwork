@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- aurean cornea and synchronizer hediff. Hediff ONLY for compatibility with users that used the older version 
+        This bionics can't be found/crafted anymore -->
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Trunken_hediff_AureanCornea</defName>
+    <label>aurean cornea</label>
+    <description>A mounted contact lens in glimmering gold colors with sun shield and dimmer.</description>
+    <labelNoun>a golden eye</labelNoun>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>0.20</SocialImpact>
+          <TradePriceImprovement>0.10</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.10</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Trunken_hediff_Synchronizer</defName>
+    <label>synchronizer</label>
+    <description>A tactical military coordination computer with a digital screen implanted right in the wrist.</description>
+    <labelNoun>a synchronizer</labelNoun>
+    <defaultLabelColor>(0.85, 0, 0.78)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <TrapSpringChance>-0.18</TrapSpringChance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

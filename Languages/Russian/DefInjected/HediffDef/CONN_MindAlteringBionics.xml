@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Trunken_hediff_BerserkerChip.label>чип берсерка</Trunken_hediff_BerserkerChip.label>
+  <Trunken_hediff_BerserkerChip.description>Мозговой имплант, дающий пользователю выброс адреналина. При активации, значительно улучшает навык ближнего боя и эффективно подавляет боль. Хоть отсутствие боли и позволяет достичь лучших результатов, но она не бесполезна для организма. Без боли можно получить серьёзные раны и оставить их незамеченными без лечения.</Trunken_hediff_BerserkerChip.description>
+  <Trunken_hediff_BerserkerChip.labelNoun>чип берсерка</Trunken_hediff_BerserkerChip.labelNoun>
+
+  <Trunken_hediff_Mindtwist.label>поворот разума</Trunken_hediff_Mindtwist.label>
+  <Trunken_hediff_Mindtwist.description>Устройство удаляющее любые плохие воспоминания. Оно напрямую взаимодействует с мозгом, разрывая ненужные нейронные связи. Устройство удаляет воспоминания не мгновенно, так как для установления синаптических связей требуется время.</Trunken_hediff_Mindtwist.description>
+  <Trunken_hediff_Mindtwist.labelNoun>поворот разума</Trunken_hediff_Mindtwist.labelNoun>
+
+  <Trunken_hediff_MuseChip.label>муза</Trunken_hediff_MuseChip.label>
+  <Trunken_hediff_MuseChip.description>Мозговой имплант с виртуальной личность «Ева», которая сопровождает носителя на его жизненном пути. Она имеет доступ к огромной базе данных. Просматривая и анализируя информацию, «Ева» подталкивает носителя к лучшему решению.</Trunken_hediff_MuseChip.description>
+  <Trunken_hediff_MuseChip.labelNoun>чип с «Музой»</Trunken_hediff_MuseChip.labelNoun>
+
+  <Trunken_hediff_NeuroEnhancer.label>нейроусилитель</Trunken_hediff_NeuroEnhancer.label>
+  <Trunken_hediff_NeuroEnhancer.description>Мозговой имплант, дающий доступ к межзвёздной сети данных. Он постоянно подключён к сети, если она доступна, и снабжает пользователя данными для любой ситуации. Вы можете мысленно смотреть телевизор и одновременно проигрывать различные варианты действий. Создавайте произведения искусства или работайте над чертежами в личном кабинете, созданном вашим воображением.</Trunken_hediff_NeuroEnhancer.description>
+  <Trunken_hediff_NeuroEnhancer.labelNoun>нейроусилитель</Trunken_hediff_NeuroEnhancer.labelNoun>
+
+  <Trunken_hediff_CombatAI.label>боевой ИИ</Trunken_hediff_CombatAI.label>
+  <Trunken_hediff_CombatAI.description>Мозговой имплант, берущий на себя неполный контроль в боевых ситуациях. Имплант был разработан неизвестной группой во время последней межгалактической войны в рамках проекта по созданию супер-солдат. Хоть эта группа людей и канула в Лету, их творения до сих пор встречаются в галактике.</Trunken_hediff_CombatAI.description>
+  <Trunken_hediff_CombatAI.labelNoun>боевой ИИ</Trunken_hediff_CombatAI.labelNoun>
+</LanguageData>

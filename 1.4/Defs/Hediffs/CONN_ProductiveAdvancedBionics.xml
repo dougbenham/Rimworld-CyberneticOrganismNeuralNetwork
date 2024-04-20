@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ProductiveAdvancedBionicsBase" ParentName="BodyPartBionicBase" Abstract="True">
+    <techLevel>Ultra</techLevel>
+    <statBases>
+      <WorkToMake>55000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>CONN_ProductiveAdvancedBionics</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>14</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories Inherit="False">
+      <li>CONN_BodyPartsArtificial</li>
+    </thingCategories>
+    <tradeTags>
+      <li>CONN_BodyPartsArtificial</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- ############## Energetic Lung ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CONN_hediff_EnergeticLung</defName>
+    <label>energetic lung</label>
+    <description>A bionic lung with liquid oxygen dispenser, made for human space travel in times where no oxygen extractor existed. It has an extra liquid oxygen tank, effectively allowing for long period without breathing. A pair of these can form the base of a human respiratory system. This unique module replaces years of practice and self-control in a snap.</description>
+    <labelNoun>a bionic lung</labelNoun>
+    <defaultLabelColor>(0.5, 0.5, 0.8)</defaultLabelColor>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.40</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>CONN_EnergeticLung</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_EnergeticLung</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="ProductiveAdvancedBionicsBase">
+    <defName>CONN_EnergeticLung</defName>
+    <label>energetic lung</label>
+    <description>A bionic lung with liquid oxygen dispenser, made for human space travel in times where no oxygen extractor existed. It has an extra liquid oxygen tank, effectively allowing for long period without breathing. A pair of these can form the base of a human respiratory system. This unique module replaces years of practice and self-control in a snap. (Replacement)</description>
+    <costList>
+      <Uranium>20</Uranium>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>CONN_InstallEnergeticLung</defName>
+    <label>install energetic lung</label>
+    <description>Install energetic lung.</description>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_EnergeticLung</ThingDef>
+      <HediffDef>CONN_hediff_EnergeticLung</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing energetic lung.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CONN_EnergeticLung</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CONN_EnergeticLung</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CONN_hediff_EnergeticLung</addsHediff>
+    <skillRequirements>
+      <Medicine>15</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Energetic Kidney ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CONN_hediff_EnergeticKidney</defName>
+    <label>energetic kidney</label>
+    <description>A bionic kidney for more endurance and strength. The nephrons are replaced by a reactive filter in this hybrid design. It releases immunotoxins into the system, protecting the user from even the deadliest of diseases.</description>
+    <labelNoun>a bionic kidney</labelNoun>
+    <defaultLabelColor>(0.5, 0.5, 0.8)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>CONN_EnergeticKidney</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_EnergeticKidney</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="ProductiveAdvancedBionicsBase">
+    <defName>CONN_EnergeticKidney</defName>
+    <label>energetic kidney</label>
+    <description>A bionic kidney for more endurance and strength. The nephrons are replaced by a reactive filter in this hybrid design. It releases immunotoxins into the system, protecting the user from even the deadliest of diseases. (Replacement)</description>
+    <costList>
+      <Uranium>30</Uranium>
+      <Plasteel>60</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>CONN_InstallEnergeticKidney</defName>
+    <label>install energetic kidney</label>
+    <description>Install energetic kidney.</description>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_EnergeticKidney</ThingDef>
+      <HediffDef>CONN_hediff_EnergeticKidney</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing energetic kidney.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CONN_EnergeticKidney</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CONN_EnergeticKidney</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CONN_hediff_EnergeticKidney</addsHediff>
+    <skillRequirements>
+      <Medicine>15</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Energy Core ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CONN_hediff_EnergyCore</defName>
+    <description>An advanced artificial heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It is better than a biological heart in almost every way with its advanced super core, which is build off a mechanoid power cell.</description>
+    <label>energy core</label>
+    <labelNoun>an energy core</labelNoun>
+    <defaultLabelColor>(0.5, 0.5, 0.8)</defaultLabelColor>
+    <stages>
+      <li>
+        <partEfficiencyOffset>0.50</partEfficiencyOffset>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <RestRateMultiplier>0.50</RestRateMultiplier>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <betterThanNatural>true</betterThanNatural>
+      <solid>true</solid>
+    </addedPartProps>
+    <comps>
+      <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust" MayRequire="V1024.EBFramework">
+        <linearAdjustment>20</linearAdjustment>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>CONN_EnergyCore</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_EnergyCore</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="ProductiveAdvancedBionicsBase">
+    <defName>CONN_EnergyCore</defName>
+    <label>energy core</label>
+    <description>An advanced artificial heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It is better than a biological heart in almost every way with its advanced super core, which is build off a mechanoid power cell. (Replacement)</description>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <Gold>3</Gold>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>CONN_InstallEnergyCore</defName>
+    <label>install energy core</label>
+    <description>Install energy core.</description>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_EnergyCore</ThingDef>
+      <HediffDef>CONN_hediff_EnergyCore</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing energy core.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CONN_EnergyCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CONN_EnergyCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CONN_hediff_EnergyCore</addsHediff>
+    <skillRequirements>
+      <Medicine>15</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Autonomic Antibodies ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CONN_hediff_Autonomicviruskiller</defName>
+    <label>autonomic viruskiller</label>
+    <description>Enhances the immune system with mechanite antibodies that search and destroy any danger in the blood circulation. Used by combat medics in dangerous environments.</description>
+    <labelNoun>an autonomic viruskiller</labelNoun>
+    <defaultLabelColor>(0.5, 0.5, 0.8)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.2</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.09</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <betterThanNatural>true</betterThanNatural>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>CONN_Autonomicviruskiller</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_Autonomicviruskiller</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="ProductiveAdvancedBionicsBase">
+    <defName>CONN_Autonomicviruskiller</defName>
+    <label>autonomic viruskiller</label>
+    <description>Enhances the immune system with mechanite antibodies that search and destroy any danger in the blood circulation. Used by combat medics in dangerous environments. (Replacement)</description>
+    <costList>
+      <Uranium>25</Uranium>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>CONN_InstallAutonomicViruskiller</defName>
+    <label>install autonomic viruskiller</label>
+    <description>Install autonomic viruskiller.</description>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_Autonomicviruskiller</ThingDef>
+      <HediffDef>CONN_hediff_Autonomicviruskiller</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing autonomic viruskiller.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CONN_Autonomicviruskiller</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CONN_Autonomicviruskiller</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CONN_hediff_Autonomicviruskiller</addsHediff>
+    <skillRequirements>
+      <Medicine>15</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Aurum ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CONN_hediff_Aurum</defName>
+    <label>aurum</label>
+    <description>A modified eye unit, that reflects a screen on the iris. The spy agent analyzes current trading partners, tracks dialogues, enlists stocks, compares market prices and manages credits analog. This model served as a way to transfer money discreetly between merchant guilds. Owners can bypass the black-market firewall with unlimited restrictions. Counts as forbidden commodity.</description>
+    <labelNoun>an aurum</labelNoun>
+    <defaultLabelColor>(0.5, 0.5, 0.8)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <TradePriceImprovement>0.20</TradePriceImprovement>
+          <NegotiationAbility>0.20</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>CONN_Aurum</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_Aurum</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="ProductiveAdvancedBionicsBase">
+    <defName>CONN_Aurum</defName>
+    <label>Aurum</label>
+    <description>A modified eye unit, that reflects a screen on the iris. The spy agent analyzes current trading partners, tracks dialogues, enlists stocks, compares market prices and manages credits analog. This model served as a way to transfer money discreetly between merchant guilds. Owners can bypass the black-market firewall with unlimited restrictions. Counts as forbidden commodity. (Replacement)</description>
+    <costList>
+      <Gold>2</Gold>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>CONN_InstallAurum</defName>
+    <label>install aurum</label>
+    <description>Install aurum.</description>
+    <descriptionHyperlinks>
+      <ThingDef>CONN_Aurum</ThingDef>
+      <HediffDef>CONN_hediff_Aurum</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing aurum.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CONN_Aurum</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CONN_Aurum</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CONN_hediff_Aurum</addsHediff>
+    <skillRequirements>
+      <Medicine>15</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+</Defs>

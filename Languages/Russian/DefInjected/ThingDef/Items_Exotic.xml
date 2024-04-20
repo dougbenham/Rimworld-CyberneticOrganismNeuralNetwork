@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Neuromod Stat Booster -->
+
+  <ANN_NeuromodBooster.label>нейромод-усилитель</ANN_NeuromodBooster.label>
+  <ANN_NeuromodBooster.description>Нейронный модификатор это небольшое устройство, вводимое через глазницу, изменяющее существующую структуру мозга. Вводимое через твой глаз. Используется для небольшого увеличения всех навыков.</ANN_NeuromodBooster.description>
+  <ANN_NeuromodBooster.comps.CONN_Neurotrainer.useLabel>Использовать нейромод-усилитель</ANN_NeuromodBooster.comps.CONN_Neurotrainer.useLabel>
+
+  <!-- ############## Brainwash ############## -->
+
+  <ANN_Brainwash.label>промыватель мозгов</ANN_Brainwash.label>
+  <ANN_Brainwash.description>Устройство для стирания памяти. Удаляет любые лишние черты.</ANN_Brainwash.description>
+  <ANN_Brainwash.comps.CompUsable.useLabel>Использовать промыватель мозгов</ANN_Brainwash.comps.CompUsable.useLabel>
+
+  <!-- ############## Passion Giver ############## -->
+
+  <ANN_PassionGiver.label>разжигатель интереса</ANN_PassionGiver.label>
+  <ANN_PassionGiver.description>Вводит наноботов, изменяющих клетки мозга для возникновения случайного интереса к навыку.</ANN_PassionGiver.description>
+  <ANN_PassionGiver.comps.CompUsable.useLabel>Использовать разжигатель интереса</ANN_PassionGiver.comps.CompUsable.useLabel>
+
+  <ANN_TraitGiver.label>создатель черт</ANN_TraitGiver.label>
+  <ANN_TraitGiver.description>Вводит наноботов, изменяющих клетки мозга для появления случайной черты характера.</ANN_TraitGiver.description>
+  <ANN_TraitGiver.comps.CompUsable.useLabel>Использовать создатель черт</ANN_TraitGiver.comps.CompUsable.useLabel>
+
+  <!-- ############## Mind Clearer ############## -->
+
+  <NeurotrainersClearer.label>очиститель мозга</NeurotrainersClearer.label>
+  <NeurotrainersClearer.description>Модель промывателя мозгов, очищающая кратковременную память. Влияет на все текущие состояния.</NeurotrainersClearer.description>
+  <NeurotrainersClearer.comps.CompUsable.useLabel>Использовать очиститель мозга</NeurotrainersClearer.comps.CompUsable.useLabel>
+
+  <!-- ############## Reconditioner ############## -->
+
+  <ANN_Reconditioner.label>перестроитель</ANN_Reconditioner.label>
+  <ANN_Reconditioner.description>Вводит наноботов, изменяющих клетки мозга для очистки долговременно памяти. Создайте новую историю персонажа.</ANN_Reconditioner.description>
+  <ANN_Reconditioner.comps.CompUsable.useLabel>Использовать перестроитель</ANN_Reconditioner.comps.CompUsable.useLabel>
+
+</LanguageData>

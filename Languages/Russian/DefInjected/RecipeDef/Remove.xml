@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Berserker Chip -->
+
+  <CONN_RemoveBerserkerChip.label>удалить чип берсерка</CONN_RemoveBerserkerChip.label>
+  <CONN_RemoveBerserkerChip.description>Удалить чип берсерка.</CONN_RemoveBerserkerChip.description>
+  <CONN_RemoveBerserkerChip.jobString>Удаляет чип берсерка</CONN_RemoveBerserkerChip.jobString>
+
+
+  <!-- Mindtwist -->
+
+  <CONN_RemoveMindTwist.label>удалить Поворот разума</CONN_RemoveMindTwist.label>
+  <CONN_RemoveMindTwist.description>Удалить Поворот разума.</CONN_RemoveMindTwist.description>
+  <CONN_RemoveMindTwist.jobString>Удаляет Поворот разума</CONN_RemoveMindTwist.jobString>
+
+
+  <!-- Muse Chip -->
+
+  <CONN_RemoveMuseChip.label>удалить чип с ИИ «Муза»</CONN_RemoveMuseChip.label>
+  <CONN_RemoveMuseChip.description>Удалить чип с ИИ «Муза».</CONN_RemoveMuseChip.description>
+  <CONN_RemoveMuseChip.jobString>Удаляет чип с ИИ «Муза»</CONN_RemoveMuseChip.jobString>
+
+
+  <!-- Neuro Enhancer -->
+
+  <CONN_RemoveNeuroEnchancer.label>извлечь нейроусилитель</CONN_RemoveNeuroEnchancer.label>
+  <CONN_RemoveNeuroEnchancer.description>Извлечь нейроусилитель.</CONN_RemoveNeuroEnchancer.description>
+  <CONN_RemoveNeuroEnchancer.jobString>Извлекает нейроусилитель</CONN_RemoveNeuroEnchancer.jobString>
+
+
+  <!-- Flash Light -->
+
+  <CONN_RemoveFlashlight.label>извлечь фонарик</CONN_RemoveFlashlight.label>
+  <CONN_RemoveFlashlight.description>Извлечь фонарик.</CONN_RemoveFlashlight.description>
+  <CONN_RemoveFlashlight.jobString>Извлекает фонарик.</CONN_RemoveFlashlight.jobString>
+
+
+  <!-- Laser Detection -->
+
+  <CONN_RemoveLaserDetection.label>извлечь лазерное обнаружение</CONN_RemoveLaserDetection.label>
+  <CONN_RemoveLaserDetection.description>Извлечь лазерное обнаружение.</CONN_RemoveLaserDetection.description>
+  <CONN_RemoveLaserDetection.jobString>Извлекает лазерное обнаружение.</CONN_RemoveLaserDetection.jobString>
+
+
+  <!-- Combat AI -->
+
+  <CONN_RemoveCombatAI.label>удалить боевой ИИ</CONN_RemoveCombatAI.label>
+  <CONN_RemoveCombatAI.description>Удалить боевой ИИ.</CONN_RemoveCombatAI.description>
+  <CONN_RemoveCombatAI.jobString>Удаляет боевой ИИ</CONN_RemoveCombatAI.jobString>
+
+
+  <!-- Musclewire -->
+
+  <CONN_RemoveMuscleWire.label>извлечь мышечную сеть</CONN_RemoveMuscleWire.label>
+  <CONN_RemoveMuscleWire.description>Извлечь мышечную сеть.</CONN_RemoveMuscleWire.description>
+  <CONN_RemoveMuscleWire.jobString>Извлекает мышечную сеть</CONN_RemoveMuscleWire.jobString>
+
+
+  <!-- Dermalplating -->
+
+  <CONN_RemoveDermaplating.label>извлечь Бронекожу</CONN_RemoveDermaplating.label>
+  <CONN_RemoveDermaplating.description>Извлечь Бронекожу.</CONN_RemoveDermaplating.description>
+  <CONN_RemoveDermaplating.jobString>Извлекает Бронекожу</CONN_RemoveDermaplating.jobString>
+
+
+  <!-- Exoskeleton Armor -->
+
+  <CONN_RemoveExoskeletonArmor.label>извлечь экзоскелетную броню</CONN_RemoveExoskeletonArmor.label>
+  <CONN_RemoveExoskeletonArmor.description>Извлечь экзоскелетную броню.</CONN_RemoveExoskeletonArmor.description>
+  <CONN_RemoveExoskeletonArmor.jobString>Извлекает экзоскелетную броню.</CONN_RemoveExoskeletonArmor.jobString>
+
+
+</LanguageData>

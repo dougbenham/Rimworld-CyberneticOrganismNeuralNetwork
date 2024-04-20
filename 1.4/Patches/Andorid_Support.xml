@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- Mod Support for Android Tiers -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Android tiers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Android Cybernetics -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Android1Tier" or defName="Android2Tier"]/recipes</xpath>
+					<value>
+						<li>CONN_InstallCompressionStomach</li>
+						<li>CONN_InstallHoverFeet</li>
+						<li>CONN_InstallGreenthumb</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Android3Tier" or defName="Android4Tier" or defName="Android5Tier"]/recipes</xpath>
+					<value>
+						<li>CONN_InstallZoom</li>
+						<li>CONN_InstallCompressionStomach</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/recipes</xpath>
+					<value>
+						<li>CONN_InstallBlackPearl</li>
+						<li>CONN_InstallIndependentEye</li>
+						<li>CONN_InstallEnergyCore</li>
+					</value>
+				</li>
+				<!-- K9 cybernetic unit -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AndroidDog"]/recipes</xpath>
+					<value>
+						<li>CONN_InstallCompressionJaw</li>
+						<li>CONN_InstallCompressionStomach</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- Mod Support for Android Tiers -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Android tiers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Android Body Parts -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="CONN_InstallCompressionJaw"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>CyberneticAnimalJaw</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="CONN_InstallCompressionStomach"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>MStomach</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="CONN_InstallHoverFeet"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>LeftMechanicalFoot</li>
+						<li>RightMechanicalFoot</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="CONN_InstallGreenthumb"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>LeftHandMechanicalThumb</li>
+						<li>RightHandMechanicalThumb</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="CONN_InstallZoom" or defName="CONN_InstallIndependentEye" or defName="CONN_InstallBlackPearl"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>LeftSightSensor</li>
+						<li>RightSightSensor</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="CONN_InstallEnergyCore"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>MLeftKidney</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

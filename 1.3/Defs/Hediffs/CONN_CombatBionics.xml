@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="CombatBionicsBase" ParentName="BodyPartBionicBase" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>CONN_CombatBionics</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>35000</WorkToMake>
+    </statBases>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+    <tradeTags>
+      <li>CONN_BodyPartsArtificial</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- ############## Zoom ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_Zoom</defName>
+    <label>zoom</label>
+    <description>An enhanced artificial eye. With its biogel nerve-link, internal signal pre-processor, self-repair module, wide-spectrum sensors, and synaptic impulse transmitter, it is better than a biological eye in almost every way. The prototype neuro connector allows the user to zoom in and out on thought.</description>
+    <labelNoun>a bionic eye</labelNoun>
+    <defaultLabelColor>(0, 0.8, 0.5)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+          <MedicalTendQualityOffset>0.1</MedicalTendQualityOffset>
+          <MedicalTendSpeed>0.15</MedicalTendSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.15</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_Zoom</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_Zoom</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="CombatBionicsBase">
+    <defName>ANN_Zoom</defName>
+    <label>zoom</label>
+    <description>An enhanced artificial eye. With its biogel nerve-link, internal signal pre-processor, self-repair module, wide-spectrum sensors, and synaptic impulse transmitter, it is better than a biological eye in almost every way. The prototype neuro connector allows the user to zoom in and out on thought. (Replacement)</description>
+    <costList>
+      <PsychoidLeaves>75</PsychoidLeaves>
+      <Plasteel>55</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>ANN_InstallZoom</defName>
+    <label>install zoom</label>
+    <description>Install zoom.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_Zoom</ThingDef>
+      <HediffDef>Trunken_hediff_Zoom</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing zoom.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ANN_Zoom</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ANN_Zoom</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Trunken_hediff_Zoom</addsHediff>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Energy Fist ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_EnergyFist</defName>
+    <label>energy fist</label>
+    <description>A combat-oriented hand replacement consisting of a technological hand and an implemented pumping system inside the wrist. The pump allows for quick, controlled punches. The mechanical trigger lets you have control about its sheer power with its powerful speed boosts bounded on neural connectors and energized by an ultratech micro-battery.</description>
+    <labelNoun>an energy fist</labelNoun>
+    <defaultLabelColor>(0, 0.8, 0.5)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>arm</label>
+            <capacities>
+              <li>Poke</li>
+            </capacities>
+            <power>6.0</power>
+            <cooldownTime>0.25</cooldownTime>
+            <alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ANN_EnergyFist</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_EnergyFist</ThingDef>
+    </descriptionHyperlinks>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <ThingDef ParentName="CombatBionicsBase">
+    <defName>ANN_EnergyFist</defName>
+    <label>energy fist</label>
+    <description>A combat-oriented hand replacement consisting of a technological hand and an implemented pumping system inside the wrist. The pump allows for quick, controlled punches. The mechanical trigger lets you have control about its sheer power with its powerful speed boosts bounded on neural connectors and energized by an ultratech micro-battery. (Replacement)</description>
+    <costList>
+      <Gold>3</Gold>
+      <Uranium>10</Uranium>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>ANN_InstallEnergyFist</defName>
+    <label>install energy fist</label>
+    <description>Install energy fist.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_EnergyFist</ThingDef>
+      <HediffDef>Trunken_hediff_EnergyFist</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing energy fist.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ANN_EnergyFist</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ANN_EnergyFist</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Trunken_hediff_EnergyFist</addsHediff>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Elastic Achilles ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_ElasticAchilles</defName>
+    <label>elastic achilles</label>
+    <description>This bionic leg module can hold a man on his feet, even without any flesh on his bones. It's designed to annul the last human weakness in close combat, the Achilles' heel, by replacing it with a more elastic and less sensitive version. Favored by heavy ground units. It comes with all parts for a complete reconstruction.</description>
+    <labelNoun>a bionic Achilles' heel</labelNoun>
+    <defaultLabelColor>(0, 0.8, 0.5)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <TrapSpringChance>-0.1</TrapSpringChance>
+          <MeleeHitChance>4</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.20</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_ElasticAchilles</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_ElasticAchilles</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="CombatBionicsBase">
+    <defName>ANN_ElasticAchilles</defName>
+    <label>elastic achilles</label>
+    <description>This bionic leg module can hold a man on his feet, even without any flesh on his bones. It's designed to annul the last human weakness in close combat, the Achilles' heel, by replacing it with a more elastic and less sensitive version. Favored by heavy ground units. It comes with all parts for a complete reconstruction. (Replacement)</description>
+    <costList>
+      <Synthread>75</Synthread>
+      <Hyperweave>50</Hyperweave>
+      <Steel>25</Steel>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <statBases>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>ANN_InstallElasticAchilles</defName>
+    <label>install elastic achilles</label>
+    <description>Install elastic achilles.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_ElasticAchilles</ThingDef>
+      <HediffDef>Trunken_hediff_ElasticAchilles</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing elastic achilles.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ANN_ElasticAchilles</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ANN_ElasticAchilles</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Trunken_hediff_ElasticAchilles</addsHediff>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Cyclops Visor ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_CyclopsVisor</defName>
+    <label>cyclops visor</label>
+    <description>A hybrid bionic eye and target acquisition system with full adjustment filters and data scaning. It can be linked to the memory by connecting to the central nerve system. Enhance the sight and sharpness.</description>
+    <labelNoun>a cyclops visor</labelNoun>
+    <defaultLabelColor>(0, 0.8, 0.5)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <RangedWeapon_Cooldown>-0.1</RangedWeapon_Cooldown>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.20</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_CyclopsVisor</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_CyclopsVisor</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="CombatBionicsBase">
+    <defName>ANN_CyclopsVisor</defName>
+    <label>cyclops visor</label>
+    <description>A hybrid bionic eye and target acquisition system with full adjustment filters and data scaning. It can be linked to the memory by connecting to the central nerve system. Enhance the sight and sharpness. (Replacement)</description>
+    <costList>
+      <Silver>3</Silver>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>ANN_InstallCyclopsVisor</defName>
+    <label>install cyclops visor</label>
+    <description>Install cyclops visor.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_CyclopsVisor</ThingDef>
+      <HediffDef>Trunken_hediff_CyclopsVisor</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing cyclops visor.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ANN_CyclopsVisor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ANN_CyclopsVisor</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Trunken_hediff_CyclopsVisor</addsHediff>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- ############## Laser Detection ############## -->
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Trunken_hediff_LaserDetection</defName>
+    <label>laser detection</label>
+    <description>A laser detection device, mounted on the ear side. The laser scans the environment and displays all important data on an extendable eye patch display. Improves sight substantially, while increasing target acquisition alongside it, with its elegant auto marker.</description>
+    <labelNoun>a laser detection device</labelNoun>
+    <defaultLabelColor>(0, 0.8, 0.5)</defaultLabelColor>
+    <comps>
+      <li Class="CONN.CompProperties_LightEffect">
+        <visualMote>CONN_Mote_MoteFlashLightRed</visualMote>
+        <size>1.5</size>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <AimingDelayFactor>-0.10</AimingDelayFactor>
+          <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>ANN_LaserDetection</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_LaserDetection</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="CombatBionicsBase">
+    <defName>ANN_LaserDetection</defName>
+    <label>laser detection</label>
+    <description>A laser detection device, mounted on the ear side. The laser scans the environment and displays all important data on an extendable eye patch display. Improves sight substantially, while increasing target acquisition alongside it, with its elegant auto marker. (Implant)</description>
+    <costList>
+      <Silver>20</Silver>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>ANN_InstallLaserDetection</defName>
+    <label>install laser detection</label>
+    <description>Install a laser detection.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_LaserDetection</ThingDef>
+      <HediffDef>Trunken_hediff_LaserDetection</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing laser detection.</jobString>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ANN_LaserDetection</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ANN_LaserDetection</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Trunken_hediff_LaserDetection</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>CONN_RemoveLaserDetection</defName>
+    <label>remove laser detection device</label>
+    <description>Remove laser detection device.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_LaserDetection</ThingDef>
+      <HediffDef>Trunken_hediff_LaserDetection</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing laser detection device.</jobString>
+    <removesHediff>Trunken_hediff_LaserDetection</removesHediff>
+  </RecipeDef>
+
+  <!-- ############## Sensoric Earside  ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_SensoricEarside</defName>
+    <label>Sensoric Earside</label>
+    <description>A sensoric hearing device and target acquisition system, replacing the ear. This allows you to hear a needle dropping from a far distance.</description>
+    <labelNoun>a sensoric earside</labelNoun>
+    <defaultLabelColor>(0, 0.8, 0.5)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.20</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_SensoricEarside</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_SensoricEarside</ThingDef>
+    </descriptionHyperlinks>
+  </HediffDef>
+
+  <ThingDef ParentName="CombatBionicsBase">
+    <defName>ANN_SensoricEarside</defName>
+    <label>sensoric earside</label>
+    <description>A sensoric hearing device and target acquisition system, replacing the ear. This allows you to hear a needle dropping from a far distance. (Replacement)</description>
+    <costList>
+      <Silver>2</Silver>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>0.10</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>ANN_InstallSensoricEarside</defName>
+    <label>install sensoric earside</label>
+    <description>Install sensoric earside.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ANN_SensoricEarside</ThingDef>
+      <HediffDef>Trunken_hediff_SensoricEarside</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing sensoric earside.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ANN_SensoricEarside</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ANN_SensoricEarside</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Trunken_hediff_SensoricEarside</addsHediff>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+</Defs>

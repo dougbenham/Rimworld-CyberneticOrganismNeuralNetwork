@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Energy Core -->
+
+  <ANN_InstallEnergyCore.label>вживить энергоядро</ANN_InstallEnergyCore.label>
+  <ANN_InstallEnergyCore.description>Вживить энергоядро.</ANN_InstallEnergyCore.description>
+  <ANN_InstallEnergyCore.jobString>Вживляет энергоядро</ANN_InstallEnergyCore.jobString>
+
+  <!-- Energy Link -->
+
+  <ANN_InstallEnergyLink.label>вживить энергосвязь</ANN_InstallEnergyLink.label>
+  <ANN_InstallEnergyLink.description>Вживить энергосвязь.</ANN_InstallEnergyLink.description>
+  <ANN_InstallEnergyLink.jobString>Вживляет энергосвязь</ANN_InstallEnergyLink.jobString>
+
+
+  <!-- Energy Fist -->
+
+  <ANN_InstallEnergyFist.label>вживить энергокулак</ANN_InstallEnergyFist.label>
+  <ANN_InstallEnergyFist.description>Вживить энергокулак.</ANN_InstallEnergyFist.description>
+  <ANN_InstallEnergyFist.jobString>Вживляет энергокулак</ANN_InstallEnergyFist.jobString>
+
+
+  <!-- Outer Wrist Blade -->
+
+  <ANN_InstallOuterBlade.label>вживить выдвижное лезвие</ANN_InstallOuterBlade.label>
+  <ANN_InstallOuterBlade.description>Вживить выдвижное лезвие.</ANN_InstallOuterBlade.description>
+  <ANN_InstallOuterBlade.jobString>Вживляет выдвижное лезвие</ANN_InstallOuterBlade.jobString>
+
+
+  <!-- Power Arms -->
+
+  <ANN_InstallPowerArms.label>вживить силовую руку</ANN_InstallPowerArms.label>
+  <ANN_InstallPowerArms.description>Вживить силовую руку.</ANN_InstallPowerArms.description>
+  <ANN_InstallPowerArms.jobString>Вживляет силовую руку</ANN_InstallPowerArms.jobString>
+
+
+  <!-- Berserker Chip -->
+
+  <ANN_InstallBerserkerChip.label>установить чип берсерка</ANN_InstallBerserkerChip.label>
+  <ANN_InstallBerserkerChip.description>Установить чип берсерка.</ANN_InstallBerserkerChip.description>
+  <ANN_InstallBerserkerChip.jobString>Устанавливает чип берсерка</ANN_InstallBerserkerChip.jobString>
+
+
+  <!-- Mindtwist -->
+
+  <ANN_InstallMindtwist.label>установить Поворот разума</ANN_InstallMindtwist.label>
+  <ANN_InstallMindtwist.description>Установить Поворот разума.</ANN_InstallMindtwist.description>
+  <ANN_InstallMindtwist.jobString>Устанавливает Поворот разума</ANN_InstallMindtwist.jobString>
+
+
+  <!-- Autonomic Viruskiller -->
+
+  <ANN_InstallAutonomicViruskiller.label>вживить Автономный иммунитет</ANN_InstallAutonomicViruskiller.label>
+  <ANN_InstallAutonomicViruskiller.description>Вживить Автономный иммунитет.</ANN_InstallAutonomicViruskiller.description>
+  <ANN_InstallAutonomicViruskiller.jobString>Вживляет Автономный иммунитет</ANN_InstallAutonomicViruskiller.jobString>
+
+
+  <!-- Muse Chip -->
+
+  <ANN_InstallMuseChip.label>установить чип с ИИ «Муза»</ANN_InstallMuseChip.label>
+  <ANN_InstallMuseChip.description>Установить чип с ИИ «Муза».</ANN_InstallMuseChip.description>
+  <ANN_InstallMuseChip.jobString>Устанавливает чип с ИИ «Муза»</ANN_InstallMuseChip.jobString>
+
+
+  <!-- Neuro Enhancer -->
+
+  <ANN_InstallNeuroEnhancer.label>вживить нейроусилитель</ANN_InstallNeuroEnhancer.label>
+  <ANN_InstallNeuroEnhancer.description>Вживить нейроусилитель.</ANN_InstallNeuroEnhancer.description>
+  <ANN_InstallNeuroEnhancer.jobString>Вживляет нейроусилитель</ANN_InstallNeuroEnhancer.jobString>
+
+
+  <!-- Flash Light -->
+
+  <ANN_InstallFlashLight.label>вживить фонарик</ANN_InstallFlashLight.label>
+  <ANN_InstallFlashLight.description>Вживить фонарик.</ANN_InstallFlashLight.description>
+  <ANN_InstallFlashLight.jobString>Вживляет фонарик.</ANN_InstallFlashLight.jobString>
+
+
+  <!-- Laser Detection -->
+
+  <ANN_InstallLaserDetection.label>вживить лазерное обнаружение</ANN_InstallLaserDetection.label>
+  <ANN_InstallLaserDetection.description>Вживить лазерное обнаружение.</ANN_InstallLaserDetection.description>
+  <ANN_InstallLaserDetection.jobString>Вживляет лазерное обнаружение.</ANN_InstallLaserDetection.jobString>
+
+
+  <!-- Sensoric Earside -->
+
+  <ANN_InstallSensoricEarside.label>вживить сенсорный блок</ANN_InstallSensoricEarside.label>
+  <ANN_InstallSensoricEarside.description>Вживить сенсорный блок.</ANN_InstallSensoricEarside.description>
+  <ANN_InstallSensoricEarside.jobString>Вживляет сенсорный блок</ANN_InstallSensoricEarside.jobString>
+
+
+  <!-- Combat AI -->
+
+  <ANN_InstallCombatAI.label>установить боевой ИИ</ANN_InstallCombatAI.label>
+  <ANN_InstallCombatAI.description>Установить боевой ИИ.</ANN_InstallCombatAI.description>
+  <ANN_InstallCombatAI.jobString>Устанавливает боевой ИИ</ANN_InstallCombatAI.jobString>
+
+
+  <!-- Cyclops Visor -->
+
+  <ANN_InstallCyclopsVisor.label>вживить визор «Циклоп»</ANN_InstallCyclopsVisor.label>
+  <ANN_InstallCyclopsVisor.description>Вживить визор «Циклоп».</ANN_InstallCyclopsVisor.description>
+  <ANN_InstallCyclopsVisor.jobString>Вживляет визор «Циклоп»</ANN_InstallCyclopsVisor.jobString>
+
+
+  <!-- Shadowrunner -->
+
+  <ANN_InstallShadowrunner.label>вживить Киберниндзю</ANN_InstallShadowrunner.label>
+  <ANN_InstallShadowrunner.description>Вживить Киберниндзю.</ANN_InstallShadowrunner.description>
+  <ANN_InstallShadowrunner.jobString>Вживляет Киберниндзю</ANN_InstallShadowrunner.jobString>
+
+
+  <!-- Musclewire -->
+
+  <ANN_InstallMusclewire.label>вживить мышечную сеть</ANN_InstallMusclewire.label>
+  <ANN_InstallMusclewire.description>Вживить мышечную сеть.</ANN_InstallMusclewire.description>
+  <ANN_InstallMusclewire.jobString>Вживляет мышечную сеть</ANN_InstallMusclewire.jobString>
+
+
+  <!-- Dermalplating -->
+
+  <ANN_InstallDermalplating.label>имплантировать Бронекожу</ANN_InstallDermalplating.label>
+  <ANN_InstallDermalplating.description>Вживить Бронекожу.</ANN_InstallDermalplating.description>
+  <ANN_InstallDermalplating.jobString>Вживляет Бронекожу</ANN_InstallDermalplating.jobString>
+
+
+  <!-- Exoskeleton Armor -->
+
+  <ANN_InstallExoskeletonArmor.label>вживить экзоскелетную броню</ANN_InstallExoskeletonArmor.label>
+  <ANN_InstallExoskeletonArmor.description>Вживить экзоскелетную броню.</ANN_InstallExoskeletonArmor.description>
+  <ANN_InstallExoskeletonArmor.jobString>Вживляет экзоскелетную броню.</ANN_InstallExoskeletonArmor.jobString>
+
+
+</LanguageData>

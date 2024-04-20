@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Trunken_hediff_Zoom.label>линза</Trunken_hediff_Zoom.label>
+  <Trunken_hediff_Zoom.description>Улучшенный искусственный глаз. Благодаря биогелевой нейросвязи, сигнальным препроцессором, модулем самовосстановления, датчиками широкого спектра и синаптическим импульсным передатчиком, он почти во всех отношениях лучше, чем биологический глаз. Прототип нейроконнектора позволяет приближать и отдалять объекты.</Trunken_hediff_Zoom.description>
+  <Trunken_hediff_Zoom.labelNoun>бионический глаз</Trunken_hediff_Zoom.labelNoun>
+
+  <Trunken_hediff_EnergyFist.label>энергокулак</Trunken_hediff_EnergyFist.label>
+  <Trunken_hediff_EnergyFist.description>Боевая замена кисти. Она состоит из технологичной руки и встроенной накачивающей системы внутри запястья. Эта система позволяет совершать быстрые и контролируемые удары. Механический регулятор позволяет контролировать мощность при помощи дополнительных усилителей, связанных нейроконнектора и питаемых от ультратехнологичной микробатареи.</Trunken_hediff_EnergyFist.description>
+  <Trunken_hediff_EnergyFist.comps.0.tools.0.label>рука</Trunken_hediff_EnergyFist.comps.0.tools.0.label>
+  <Trunken_hediff_EnergyFist.labelNoun>энергокулак</Trunken_hediff_EnergyFist.labelNoun>
+
+  <Trunken_hediff_ElasticAchilles.label>эластичные сухожилия</Trunken_hediff_ElasticAchilles.label>
+  <Trunken_hediff_ElasticAchilles.description>Бионический модуль ноги, позволяющий стоять на ногах даже когда от них почти ничего не осталось. Модуль устраняет одну из слабостей человеческого тела — сухожилия, заменяя их более эластичными и менее чувствительными версиями. Имплант предназначен, в первую очередь, для тяжёлой пехоты. В комплект поставки включён полный комплект деталей для починки.</Trunken_hediff_ElasticAchilles.description>
+  <Trunken_hediff_ElasticAchilles.labelNoun>бионические сухожилия</Trunken_hediff_ElasticAchilles.labelNoun>
+
+  <Trunken_hediff_CyclopsVisor.label>визор «Циклоп»</Trunken_hediff_CyclopsVisor.label>
+  <Trunken_hediff_CyclopsVisor.description>Гибридный бионический глаз с системой захвата целей, множеством фильтров и мощным сканером. Визор может получить доступ к памяти при подключении к центральной нервной системе. Улучшает и усиливает зрение.</Trunken_hediff_CyclopsVisor.description>
+  <Trunken_hediff_CyclopsVisor.labelNoun>визор «Циклоп»</Trunken_hediff_CyclopsVisor.labelNoun>
+
+  <Trunken_hediff_LaserDetection.label>лазерное обнаружение</Trunken_hediff_LaserDetection.label>
+  <Trunken_hediff_LaserDetection.description>Лазерное устройство обнаружения, установленное рядом с ухом. Лазер сканирует окружение и отображает все важные данные с на дисплее перед глазом. Улучшает зрение, в том числе при обнаружении целей. И стильно подсвечивает важные объекты.</Trunken_hediff_LaserDetection.description>
+  <Trunken_hediff_LaserDetection.labelNoun>лазерное устройство обнаружения</Trunken_hediff_LaserDetection.labelNoun>
+
+  <Trunken_hediff_SensoricEarside.label>сенсорный блок</Trunken_hediff_SensoricEarside.label>
+  <Trunken_hediff_SensoricEarside.description>Сенсорное слушающее устройство и система захвата целей, заменяющие ухо. Позволяет услышать даже самые тихие и далёкие звуки.</Trunken_hediff_SensoricEarside.description>
+  <Trunken_hediff_SensoricEarside.labelNoun>сенсорный блок</Trunken_hediff_SensoricEarside.labelNoun>
+</LanguageData>

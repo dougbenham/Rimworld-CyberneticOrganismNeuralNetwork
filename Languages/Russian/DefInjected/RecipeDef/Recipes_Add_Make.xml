@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_ANN_Zoom.label>изготовить Линзу</Make_ANN_Zoom.label>
+  <Make_ANN_Zoom.description>Изготовить Линзу.</Make_ANN_Zoom.description>
+  <Make_ANN_Zoom.jobString>Изготавливает Линзу</Make_ANN_Zoom.jobString>
+
+  <Make_ANN_BlackPearl.label>изготовить Чёрную Жемчужину</Make_ANN_BlackPearl.label>
+  <Make_ANN_BlackPearl.description>Изготовить Чёрную Жемчужину.</Make_ANN_BlackPearl.description>
+  <Make_ANN_BlackPearl.jobString>Изготавливает Чёрную Жемчужину</Make_ANN_BlackPearl.jobString>
+
+  <Make_ANN_IndependentEye.label>изготовить роботизированный глаз</Make_ANN_IndependentEye.label>
+  <Make_ANN_IndependentEye.description>Изготовить роботизированный глаз.</Make_ANN_IndependentEye.description>
+  <Make_ANN_IndependentEye.jobString>Изготавливает роботизированный глаз</Make_ANN_IndependentEye.jobString>
+
+  <Make_ANN_HoverFeet.label>изготовить воздушную подушку</Make_ANN_HoverFeet.label>
+  <Make_ANN_HoverFeet.description>Изготовить воздушную подушку.</Make_ANN_HoverFeet.description>
+  <Make_ANN_HoverFeet.jobString>Изготавливает воздушную подушку</Make_ANN_HoverFeet.jobString>
+
+  <Make_ANN_Greenthumb.label>изготовить модуль «Зелёные пальцы»</Make_ANN_Greenthumb.label>
+  <Make_ANN_Greenthumb.description>Изготовить модуль «Зелёные пальцы».</Make_ANN_Greenthumb.description>
+  <Make_ANN_Greenthumb.jobString>Изготавливает модуль «Зелёные пальцы»</Make_ANN_Greenthumb.jobString>
+
+  <Make_ANN_CompressionJaw.label>изготовить компрессионную челюсть</Make_ANN_CompressionJaw.label>
+  <Make_ANN_CompressionJaw.description>Изготовить компрессионную челюсть.</Make_ANN_CompressionJaw.description>
+  <Make_ANN_CompressionJaw.jobString>Изготавливает компрессионную челюсть</Make_ANN_CompressionJaw.jobString>
+
+  <Make_ANN_CompressionStomach.label>изготовить компрессионный желудок</Make_ANN_CompressionStomach.label>
+  <Make_ANN_CompressionStomach.description>Изготовить компрессионный желудок.</Make_ANN_CompressionStomach.description>
+  <Make_ANN_CompressionStomach.jobString>Изготавливает компрессионный желудок</Make_ANN_CompressionStomach.jobString>
+
+  <Make_ANN_EnergeticLung.label>изготовить энергетическое лёгкое</Make_ANN_EnergeticLung.label>
+  <Make_ANN_EnergeticLung.description>Изготовить Энергетическое лёгкое.</Make_ANN_EnergeticLung.description>
+  <Make_ANN_EnergeticLung.jobString>Изготавливает Энергетическое лёгкое</Make_ANN_EnergeticLung.jobString>
+
+  <Make_ANN_EnergeticKidney.label>изготовить энергетическую почку</Make_ANN_EnergeticKidney.label>
+  <Make_ANN_EnergeticKidney.description>Изготовить энергетическую почку.</Make_ANN_EnergeticKidney.description>
+  <Make_ANN_EnergeticKidney.jobString>Изготавливает энергетическую почку</Make_ANN_EnergeticKidney.jobString>
+
+  <Make_ANN_EnergyCore.label>изготовить энергоядро</Make_ANN_EnergyCore.label>
+  <Make_ANN_EnergyCore.description>Изготовить энергоядро.</Make_ANN_EnergyCore.description>
+  <Make_ANN_EnergyCore.jobString>Изготавливает энергоядро</Make_ANN_EnergyCore.jobString>
+
+  <Make_ANN_EnergyLink.label>изготовить энергосвязь</Make_ANN_EnergyLink.label>
+  <Make_ANN_EnergyLink.description>Изготовить энергосвязь.</Make_ANN_EnergyLink.description>
+  <Make_ANN_EnergyLink.jobString>Изготавливает энергосвязь</Make_ANN_EnergyLink.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_ANN_EnergyFist.label>изготовить энергокулак</Make_ANN_EnergyFist.label>
+  <Make_ANN_EnergyFist.description>Изготовить энергокулак.</Make_ANN_EnergyFist.description>
+  <Make_ANN_EnergyFist.jobString>Изготавливает энергокулак</Make_ANN_EnergyFist.jobString>
+
+  <Make_ANN_OuterBlade.label>изготовить выдвижное лезвие</Make_ANN_OuterBlade.label>
+  <Make_ANN_OuterBlade.description>Изготовить выдвижное Лезвие.</Make_ANN_OuterBlade.description>
+  <Make_ANN_OuterBlade.jobString>Изготавливает выдвижное Лезвие</Make_ANN_OuterBlade.jobString>
+
+  <Make_ANN_PowerArms.label>изготовить силовую руку</Make_ANN_PowerArms.label>
+  <Make_ANN_PowerArms.description>Изготовить силовую руку.</Make_ANN_PowerArms.description>
+  <Make_ANN_PowerArms.jobString>Изготавливает силовую руку</Make_ANN_PowerArms.jobString>
+
+  <Make_ANN_BerserkerChip.label>изготовить чип берсерка</Make_ANN_BerserkerChip.label>
+  <Make_ANN_BerserkerChip.description>Изготовить чип Берсерка.</Make_ANN_BerserkerChip.description>
+  <Make_ANN_BerserkerChip.jobString>Изготавливает чип Берсерка</Make_ANN_BerserkerChip.jobString>
+
+  <Make_ANN_BodyPartsArtificialtwist.label>изготовить Поворот разума</Make_ANN_BodyPartsArtificialtwist.label>
+  <Make_ANN_BodyPartsArtificialtwist.description>Изготовить Поворот разума.</Make_ANN_BodyPartsArtificialtwist.description>
+  <Make_ANN_BodyPartsArtificialtwist.jobString>Изготавливает Поворот разума</Make_ANN_BodyPartsArtificialtwist.jobString>
+
+
+  <Make_ANN_MuseChip.label>изготовить Музу</Make_ANN_MuseChip.label>
+  <Make_ANN_MuseChip.description>Изготовить Музу.</Make_ANN_MuseChip.description>
+  <Make_ANN_MuseChip.jobString>Изготавливает Музу</Make_ANN_MuseChip.jobString>
+
+  <Make_ANN_NeuroEnhancer.label>изготовить нейроусилитель</Make_ANN_NeuroEnhancer.label>
+  <Make_ANN_NeuroEnhancer.description>Изготовить нейроусилитель.</Make_ANN_NeuroEnhancer.description>
+  <Make_ANN_NeuroEnhancer.jobString>Изготавливает нейроусилитель</Make_ANN_NeuroEnhancer.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_ANN_FlashLight.label>изготовить фонарик</Make_ANN_FlashLight.label>
+  <Make_ANN_FlashLight.description>Изготовить фонарик.</Make_ANN_FlashLight.description>
+  <Make_ANN_FlashLight.jobString>Изготавливает фонарик</Make_ANN_FlashLight.jobString>
+
+  <Make_ANN_LaserDetection.label>изготовить лазерное обнаружение</Make_ANN_LaserDetection.label>
+  <Make_ANN_LaserDetection.description>Изготовить лазерное обнаружение.</Make_ANN_LaserDetection.description>
+  <Make_ANN_LaserDetection.jobString>Изготавливает лазерное обнаружение</Make_ANN_LaserDetection.jobString>
+
+  <Make_ANN_SensoricEarside.label>изготовить сенсорный блок</Make_ANN_SensoricEarside.label>
+  <Make_ANN_SensoricEarside.description>Изготовить сенсорный блок.</Make_ANN_SensoricEarside.description>
+  <Make_ANN_SensoricEarside.jobString>Изготавливает сенсорный блок</Make_ANN_SensoricEarside.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_ANN_CombatAI.label>Изготовить боевой ИИ</Make_ANN_CombatAI.label>
+  <Make_ANN_CombatAI.description>Изготовить боевой ИИ.</Make_ANN_CombatAI.description>
+  <Make_ANN_CombatAI.jobString>Изготавливает боевой ИИ</Make_ANN_CombatAI.jobString>
+
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_ANN_Shadowrunner.label>изготовить Киберниндзю</Make_ANN_Shadowrunner.label>
+  <Make_ANN_Shadowrunner.description>Изготовить Киберниндзю.</Make_ANN_Shadowrunner.description>
+  <Make_ANN_Shadowrunner.jobString>Изготавливает Киберниндзю</Make_ANN_Shadowrunner.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_ANN_Musclewire.label>изготовить мышечную сеть</Make_ANN_Musclewire.label>
+  <Make_ANN_Musclewire.description>Изготовить мышечную сеть.</Make_ANN_Musclewire.description>
+  <Make_ANN_Musclewire.jobString>Изготавливает мышечную сеть</Make_ANN_Musclewire.jobString>
+
+  <Make_ANN_Dermalplating.label>изготовить Бронекожу</Make_ANN_Dermalplating.label>
+  <Make_ANN_Dermalplating.description>Изготовить Бронекожу.</Make_ANN_Dermalplating.description>
+  <Make_ANN_Dermalplating.jobString>Изготавливает Бронекожу</Make_ANN_Dermalplating.jobString>
+
+  <Make_ANN_Exoskeleton.label>изготовить экзоскелетную броню</Make_ANN_Exoskeleton.label>
+  <Make_ANN_Exoskeleton.description>Изготовить экзоскелетную броню.</Make_ANN_Exoskeleton.description>
+  <Make_ANN_Exoskeleton.jobString>Изготавливает экзоскелетную броню</Make_ANN_Exoskeleton.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_ANN_Lionheart.label>изготовить Львиное сердце</Make_ANN_Lionheart.label>
+  <Make_ANN_Lionheart.description>Изготовить Львиное сердце.</Make_ANN_Lionheart.description>
+  <Make_ANN_Lionheart.jobString>Изготавливает Львиное сердце</Make_ANN_Lionheart.jobString>
+
+  <Make_ANN_Aurum.label>изготовить Аурум</Make_ANN_Aurum.label>
+  <Make_ANN_Aurum.description>Изготовить Аурум.</Make_ANN_Aurum.description>
+  <Make_ANN_Aurum.jobString>Изготавливает Аурум</Make_ANN_Aurum.jobString>
+</LanguageData>

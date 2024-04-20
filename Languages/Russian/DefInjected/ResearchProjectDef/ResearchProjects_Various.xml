@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CONN_ProductiveBionics.label>Мирная бионика</CONN_ProductiveBionics.label>
+  <CONN_ProductiveBionics.description>Откройте производство бионики, повышающей производительность в повседневных задачах.\n\nДанная бионика потребует наличия, как минимум, одного профессионала-ремесленника для создания и опытного профессионала-врача для установки.</CONN_ProductiveBionics.description>
+
+  <CONN_ProductiveAdvancedBionics.label>Продвинутая мирная бионика</CONN_ProductiveAdvancedBionics.label>
+  <CONN_ProductiveAdvancedBionics.description>Откройте производство продвинутой бионики, повышающей производительность в повседневных задачах.\n\nДанная бионика потребует наличия, как минимум, одного мастера-ремесленника для создания и ведущего эксперта-врача для установки.</CONN_ProductiveAdvancedBionics.description>
+
+  <CONN_CombatBionics.label>Боевая бионика</CONN_CombatBionics.label>
+  <CONN_CombatBionics.description>Откройте производство бионики, повышающей боевые навыки.\n\nДанная бионика потребует наличия, как минимум, одного профессионала-ремесленника для создания и опытного профессионала-врача для установки.</CONN_CombatBionics.description>
+
+  <CONN_CombatAdvancedBionics.label>Продвинутая боевая бионика</CONN_CombatAdvancedBionics.label>
+  <CONN_CombatAdvancedBionics.description>Откройте производство продвинутой бионики, повышающей боевые навыки.\n\nДанная бионика потребует наличия, как минимум, одного мастера-ремесленника для создания и ведущего эксперта-врача для установки.</CONN_CombatAdvancedBionics.description>
+
+  <CONN_MindAlteringBionics.label>Бионика разума</CONN_MindAlteringBionics.label>
+  <CONN_MindAlteringBionics.description>Откройте производство бионики, изменяющей разум и улучшающей способности.\n\nДанная бионика потребует наличия, как минимум, одного ремесленника-мастера континентального масштаба для создания и опытного врача-мастера континентального масштаба для установки.</CONN_MindAlteringBionics.description>
+</LanguageData>

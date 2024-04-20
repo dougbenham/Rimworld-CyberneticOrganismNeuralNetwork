@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Trunken_hediff_BlackPearl.label>чёрная Жемчужина</Trunken_hediff_BlackPearl.label>
+  <Trunken_hediff_BlackPearl.description>Продвинутый искусственный глаз с уникальными элементами и системой целеуказания. Он обладает широким набором функций, самой выдающейся из которых является ночное видение. Когда-то в тёмную эру технологий, во времена восстаний роботов была желанной наградой для каждого солдата. Фактически ядро устройства это глазной модуль андроида. Название протезу было дано за глубокий чёрным цвет, делающий замысли владельца нечитаемыми для синтетических алгоритмов. Сейчас Чёрная Жемчужина используется преимущественно рабочими из-за заметного улучшения зрения.</Trunken_hediff_BlackPearl.description>
+  <Trunken_hediff_BlackPearl.labelNoun>чёрный глаз</Trunken_hediff_BlackPearl.labelNoun>
+
+  <Trunken_hediff_HoverFeet.label>воздушная ступня</Trunken_hediff_HoverFeet.label>
+  <Trunken_hediff_HoverFeet.description>Самоподдерживающаяся установка на рельсовом адаптере, соединённая с костями внутри стопы. Юные бандиты использовали их когда-то, чтобы сбегать после преступлений на городских мирах. Увеличивает скорость передвижения.</Trunken_hediff_HoverFeet.description>
+  <Trunken_hediff_HoverFeet.labelNoun>воздушная ступня</Trunken_hediff_HoverFeet.labelNoun>
+
+  <Trunken_hediff_Greenthumb.label>модуль «Зелёные пальцы»</Trunken_hediff_Greenthumb.label>
+  <Trunken_hediff_Greenthumb.description>Специальный бионический модуль для фермеров и колонизаторов. Заменяет палец многофункциональный устройством. Хранилище внутри ладони содержит самообучающийся нанокомпьютер, содержащий в себе информацию всевозможной о флоре и фауне. Встроенный световой датчик информирует о сканировании и загрузке данных.</Trunken_hediff_Greenthumb.description>
+  <Trunken_hediff_Greenthumb.labelNoun>бионическая рука</Trunken_hediff_Greenthumb.labelNoun>
+
+  <Trunken_hediff_CompressionJaw.label>компрессионная челюсть</Trunken_hediff_CompressionJaw.label>
+  <Trunken_hediff_CompressionJaw.description>Искусственная челюсть с гидравлическими сервоприводами. Комбинация пласталевого корпуса и золотых зубов позволяет легко прокусывать железо и за считанные секунды перетирать любой материал. Скорость этой челюсти также улучшает речь.</Trunken_hediff_CompressionJaw.description>
+  <Trunken_hediff_CompressionJaw.labelNoun>гидравлическая челюсть</Trunken_hediff_CompressionJaw.labelNoun>
+
+  <Trunken_hediff_CompressionStomach.label>компрессионный желудок</Trunken_hediff_CompressionStomach.label>
+  <Trunken_hediff_CompressionStomach.description>Мощный бионический желудок переваривающий пищу с невообразимой скоростью за счёт внутренних гидравлических сервоприводов. Благодаря встроенной системе подачи соляной кислоты можно дробить и переваривать даже камни.</Trunken_hediff_CompressionStomach.description>
+  <Trunken_hediff_CompressionStomach.labelNoun>бионический желудок</Trunken_hediff_CompressionStomach.labelNoun>
+
+  <Trunken_hediff_FlashLight.label>фонарик</Trunken_hediff_FlashLight.label>
+  <Trunken_hediff_FlashLight.description>Фонарик, рассеивающий тьму, установленный рядом с ухом.</Trunken_hediff_FlashLight.description>
+  <Trunken_hediff_FlashLight.labelNoun>фонарик</Trunken_hediff_FlashLight.labelNoun>
+
+  <Trunken_hediff_Musclewire.label>мышечная сеть</Trunken_hediff_Musclewire.label>
+  <Trunken_hediff_Musclewire.description>Полное слияние всех мышц тела с проводами, улучшающее ловкость и скорость передвижения.</Trunken_hediff_Musclewire.description>
+  <Trunken_hediff_Musclewire.labelNoun>мышечная сеть</Trunken_hediff_Musclewire.labelNoun>
+</LanguageData>
