@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>Cybernetic Organism and Neural Network</name>
 	<author>Doug, Kikohi, Trunken</author>
-	<packageId>doug.cybernetic</packageId>
+	<packageId>doug.conn</packageId>
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.4</li>
@@ -23,5 +23,9 @@
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>brrainz.harmony</li>
 	</loadAfter>
-	<description>Unique and useful bionics! Check out the steam description page for more informations</description>
+	<description>
+		Continued from https://steamcommunity.com/sharedfiles/filedetails/?id=2045064990
+		
+		Github link is https://github.com/dougbenham/Rimworld-CyberneticOrganismNeuralNetwork
+	</description>
 </ModMetaData>
