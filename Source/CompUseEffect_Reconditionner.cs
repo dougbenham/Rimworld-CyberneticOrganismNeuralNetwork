@@ -25,15 +25,10 @@ namespace CONN
 
 		private void RefreshPawnStat(Pawn pawn)
 		{
-			var workSettings = pawn.workSettings;
-			workSettings?.Notify_DisabledWorkTypesChanged();
-			var skills = pawn.skills;
-			skills?.Notify_SkillDisablesChanged();
-			var flag = !pawn.Dead && pawn.RaceProps.Humanlike;
-			if (flag)
-			{
+			pawn.workSettings?.Notify_DisabledWorkTypesChanged();
+			pawn.skills?.Notify_SkillDisablesChanged();
+			if (!pawn.Dead && pawn.RaceProps.Humanlike)
 				pawn.needs.mood.thoughts.situational.Notify_SituationalThoughtsDirty();
-			}
 		}
 	}
 }

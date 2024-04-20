@@ -21,11 +21,11 @@ namespace CONN
 			{
 				var result = new List<HediffGizmoBerserk>();
 				__instance.health.hediffSet.GetHediffs(ref result);
-				for (var i = 0; i < result.Count; i++)
+				foreach (var t in result)
 				{
-					foreach (var gizmo2 in result[i].GetGizmos())
+					foreach (var g in t.GetGizmos())
 					{
-						yield return gizmo2;
+						yield return g;
 					}
 				}
 			}

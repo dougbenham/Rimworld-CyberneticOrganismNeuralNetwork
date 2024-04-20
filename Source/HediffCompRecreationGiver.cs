@@ -8,18 +8,12 @@ namespace CONN
 
 		public override void CompPostTick(ref float severityAdjustment)
 		{
-			var flag = Find.TickManager.TicksGame % Props.eachNumberOfTicks == 0;
-			if (flag)
+			if (Find.TickManager.TicksGame % Props.eachNumberOfTicks == 0)
 			{
-				var @bool = Rand.Bool;
-				if (@bool)
-				{
+				if (Rand.Bool)
 					Pawn.needs.joy.GainJoy(Props.recreationToGive, DefOfs.Gaming_Cerebral);
-				}
 				else
-				{
 					Pawn.needs.joy.GainJoy(Props.recreationToGive, DefOfs.Television);
-				}
 			}
 			base.CompPostTick(ref severityAdjustment);
 		}

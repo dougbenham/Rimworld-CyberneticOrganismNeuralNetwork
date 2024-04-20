@@ -9,7 +9,7 @@ namespace CONN
 	{
 		static HarmonyInit()
 		{
-			var harmony = new Harmony("kikohi.conn");
+			var harmony = new Harmony("doug.conn");
 			harmony.PatchAll(Assembly.GetExecutingAssembly());
 		}
 	}

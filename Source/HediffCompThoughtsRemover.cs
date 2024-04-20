@@ -1,28 +1,25 @@
-﻿using RimWorld;
-using Verse;
+﻿using Verse;
 
 namespace CONN
 {
 	internal class HediffCompThoughtsRemover : HediffComp
 	{
-		public HediffCompProperties_ThoughtsRemover Props => (HediffCompProperties_ThoughtsRemover)props;
+		public HediffCompProperties_ThoughtsRemover Props => (HediffCompProperties_ThoughtsRemover) props;
 
 		public override void CompPostTick(ref float severityAdjustment)
 		{
-			var flag = Find.TickManager.TicksGame % 2500 == 0;
-			if (flag)
+			if (Find.TickManager.TicksGame % 2500 == 0)
 			{
-				var needs = Pawn.needs;
-				var need_Mood = (needs != null) ? needs.mood : null;
-				var flag2 = need_Mood != null;
-				if (flag2)
+				var need_Mood = Pawn.needs?.mood;
+				if (need_Mood != null)
 				{
-					for (var i = 0; i < Props.thoughtsToClear.Count; i++)
+					foreach (var t in Props.thoughtsToClear)
 					{
-						need_Mood.thoughts.memories.RemoveMemoriesOfDef(Props.thoughtsToClear[i]);
+						need_Mood.thoughts.memories.RemoveMemoriesOfDef(t);
 					}
 				}
 			}
+
 			base.CompPostTick(ref severityAdjustment);
 		}
 	}

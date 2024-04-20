@@ -12,15 +12,8 @@ namespace CONN
 			user.needs.mood.thoughts.GetAllMoodThoughts(list);
 			foreach (var thought in list)
 			{
-				var flag = user.needs.mood != null;
-				if (flag)
-				{
-					var flag2 = !thought.def.IsSituational;
-					if (flag2)
-					{
-						user.needs.mood.thoughts.memories.RemoveMemoriesOfDef(thought.def);
-					}
-				}
+				if (user.needs.mood != null && !thought.def.IsSituational)
+					user.needs.mood.thoughts.memories.RemoveMemoriesOfDef(thought.def);
 			}
 			parent.SplitOff(1).Destroy();
 		}

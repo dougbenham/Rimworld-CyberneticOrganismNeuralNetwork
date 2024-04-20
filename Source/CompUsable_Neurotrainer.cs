@@ -6,7 +6,7 @@ namespace CONN
 	internal class CompUsable_Neurotrainer : CompUsable
 	{
 		protected new virtual string FloatMenuOptionLabel => string.Format(Props.useLabel, skill.skillLabel);
-
+		
 		public override void PostExposeData()
 		{
 			base.PostExposeData();
@@ -26,26 +26,20 @@ namespace CONN
 
 		public override bool AllowStackWith(Thing other)
 		{
-			var flag = !base.AllowStackWith(other);
-			bool result;
-			if (flag)
-			{
-				result = false;
-			}
-			else
+			if (base.AllowStackWith(other))
 			{
 				var compUsable_Neurotrainer = other.TryGetComp<CompUsable_Neurotrainer>();
-				result = (compUsable_Neurotrainer != null && compUsable_Neurotrainer.skill == skill);
+				return compUsable_Neurotrainer != null && compUsable_Neurotrainer.skill == skill;
 			}
-			return result;
+
+			return false;
 		}
 
 		public override void PostSplitOff(Thing piece)
 		{
 			base.PostSplitOff(piece);
 			var compUsable_Neurotrainer = piece.TryGetComp<CompUsable_Neurotrainer>();
-			var flag = compUsable_Neurotrainer != null;
-			if (flag)
+			if (compUsable_Neurotrainer != null)
 			{
 				compUsable_Neurotrainer.skill = skill;
 			}

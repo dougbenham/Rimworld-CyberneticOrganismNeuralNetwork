@@ -5,17 +5,14 @@ using Verse;
 
 namespace CONN
 {
-	[HarmonyPatch(typeof(Gizmo_EnergyShieldStatus))]
-	[HarmonyPatch("GizmoOnGUI", 0)]
+	[HarmonyPatch(typeof(Gizmo_EnergyShieldStatus), "GizmoOnGUI")]
 	public static class Gizmo_EnergyShieldStatus_GizmoOnGUI
 	{
 		[HarmonyPrefix]
 		public static bool Prefix(Gizmo_EnergyShieldStatus __instance, ref GizmoResult __result, Vector2 topLeft, float maxWidth)
 		{
 			var pawn = HarmonyUtilities.PawnOwner(__instance.shield);
-			var flag = pawn != null && HarmonyUtilities.pawnStats.ContainsKey(pawn);
-			bool result;
-			if (flag)
+			if (pawn != null && HarmonyUtilities.pawnStats.ContainsKey(pawn))
 			{
 				var rect = new Rect(topLeft.x, topLeft.y, __instance.GetWidth(maxWidth), 75f);
 				Widgets.DrawWindowBackground(rect);
@@ -34,13 +31,10 @@ namespace CONN
 				Text.Anchor = TextAnchor.UpperLeft;
 				TooltipHandler.TipRegion(rect2, "ShieldPersonalTip".Translate());
 				__result = new GizmoResult(GizmoState.Clear);
-				result = false;
+				return false;
 			}
-			else
-			{
-				result = true;
-			}
-			return result;
+
+			return true;
 		}
 	}
 }

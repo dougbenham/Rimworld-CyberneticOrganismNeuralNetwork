@@ -9,19 +9,13 @@ namespace CONN
 		public override AcceptanceReport CanBeUsedBy(Pawn p)
 		{
 			if (p.story.traits.allTraits.Count == 0)
-			{
 				return "CONN.NoPossibleTraitToRemove".Translate(p);
-			}
 
 			if (p.story != null && p.story.Childhood?.disallowedTraits != null && p.story.traits.allTraits.FindAll(t => !p.story.Childhood.disallowedTraits.Any(te => te.def == t.def)).Any())
-			{
 				return "CONN.NoPossibleTraitToRemove".Translate(p);
-			}
 
 			if (p.story != null && p.story.Adulthood?.disallowedTraits != null && p.story.traits.allTraits.FindAll(t => !p.story.Adulthood.disallowedTraits.Any(te => te.def == t.def)).Any())
-			{
 				return "CONN.NoPossibleTraitToRemove".Translate(p);
-			}
 
 			return base.CanBeUsedBy(p);
 		}

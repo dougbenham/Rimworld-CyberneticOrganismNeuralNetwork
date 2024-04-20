@@ -19,19 +19,12 @@ namespace CONN
 
 		public static Pawn PawnOwner(CompShield compShield)
 		{
-			var apparel = compShield.parent as Apparel;
-			var flag = apparel != null;
-			Pawn result;
-			if (flag)
+			if (compShield.parent is Apparel apparel)
 			{
-				result = apparel.Wearer;
+				return apparel.Wearer;
 			}
-			else
-			{
-				var pawn = compShield.parent as Pawn;
-				result = ((pawn != null) ? pawn : null);
-			}
-			return result;
+
+			return compShield.parent as Pawn;
 		}
 
 		public static readonly Texture2D FullShieldBarTex = SolidColorMaterials.NewSolidColorTexture(new Color(0.2f, 0.2f, 0.24f));
