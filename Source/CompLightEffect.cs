@@ -42,17 +42,17 @@ namespace CONN
 		/// <inheritdoc />
 		public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
 		{
-			mote?.DeSpawn();
+			ClearMote();
 		}
 
 		public override void Notify_PawnKilled()
 		{
-			mote?.DeSpawn();
+			ClearMote();
 		}
 
 		public override void CompPostPostRemoved()
 		{
-			mote?.DeSpawn();
+			ClearMote();
 		}
 
 		private void ClearMote()
