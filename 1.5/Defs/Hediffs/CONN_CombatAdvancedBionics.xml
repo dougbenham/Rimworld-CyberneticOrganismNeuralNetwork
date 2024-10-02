@@ -361,7 +361,7 @@
       <li>
         <statOffsets>
           <HuntingStealth>0.50</HuntingStealth>
-          <ToxicResistance>0.50</ToxicResistance>
+          <ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
         </statOffsets>
       </li>
     </stages>
