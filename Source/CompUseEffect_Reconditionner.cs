@@ -28,7 +28,7 @@ namespace CONN
 			pawn.workSettings?.Notify_DisabledWorkTypesChanged();
 			pawn.skills?.Notify_SkillDisablesChanged();
 			if (!pawn.Dead && pawn.RaceProps.Humanlike)
-				pawn.needs.mood.thoughts.situational.Notify_SituationalThoughtsDirty();
+				pawn.needs.mood?.thoughts.situational.Notify_SituationalThoughtsDirty();
 		}
 	}
 }

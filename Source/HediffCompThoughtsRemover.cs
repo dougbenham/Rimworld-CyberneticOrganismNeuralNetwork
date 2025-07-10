@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using RimWorld;
+using Verse;
 
 namespace CONN
 {
@@ -10,12 +11,11 @@ namespace CONN
 		{
 			if (Find.TickManager.TicksGame % 2500 == 0)
 			{
-				var need_Mood = Pawn.needs?.mood;
-				if (need_Mood != null)
+				if (Pawn.needs.mood != null)
 				{
 					foreach (var t in Props.thoughtsToClear)
 					{
-						need_Mood.thoughts.memories.RemoveMemoriesOfDef(t);
+						Pawn.needs.mood.thoughts.memories.RemoveMemoriesOfDef(t);
 					}
 				}
 			}
