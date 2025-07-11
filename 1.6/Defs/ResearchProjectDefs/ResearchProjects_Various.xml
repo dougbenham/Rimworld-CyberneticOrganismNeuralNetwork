@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>CONN_ResearchTab</defName>
+    <label>Cybernetic organism</label>
+  </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>CONN_ProductiveBionics</defName>
+    <label>Production improving bionics</label>
+    <description>Learn how to create bionics that improve pawns productivity and speed in common life tasks.
+
+Making these bionics will require at least an employable professional crafter to make them and a skilled professional doctor to install them.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Bionics</li>
+    </prerequisites>
+    <tab>CONN_ResearchTab</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CONN_ProductiveAdvancedBionics</defName>
+    <label>Advanced production improving bionics</label>
+    <description>Learn how to create advanced bionics that improve pawns productivity and speed in common life tasks.
+
+Making these bionics will require at least a master crafter to make them and a strong master doctor to install them.</description>
+    <baseCost>4500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>CONN_ProductiveBionics</li>
+    </prerequisites>
+    <tab>CONN_ResearchTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CONN_CombatBionics</defName>
+    <label>Combat improving bionics</label>
+    <description>Learn how to create bionics that improve pawns combat abilities.
+
+Making these bionics will require at least an employable professional crafter to make them and a skilled professional doctor to install them.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Bionics</li>
+    </prerequisites>
+    <tab>CONN_ResearchTab</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CONN_CombatAdvancedBionics</defName>
+    <label>Advanced combat improving bionics</label>
+    <description>Learn how to create advanced bionics that improve pawns combat abilities.
+
+Making these bionics will require at least a master crafter to make them and a strong master doctor to install them.</description>
+    <baseCost>4500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>CONN_CombatBionics</li>
+    </prerequisites>
+    <tab>CONN_ResearchTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CONN_MindAlteringBionics</defName>
+    <label>Mind altering bionics</label>
+    <description>Learn how to create mind altering bionics that improve pawns abilties.
+
+Making these bionics will require at least a region-known master crafter to make them and a region-known master doctor to install them.</description>
+    <baseCost>4500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>CONN_CombatAdvancedBionics</li>
+      <li>CONN_ProductiveAdvancedBionics</li>
+    </prerequisites>
+    <tab>CONN_ResearchTab</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.60</researchViewY>
+  </ResearchProjectDef>
+</Defs>
