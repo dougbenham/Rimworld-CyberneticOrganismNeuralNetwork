@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 黑珍珠 ############## -->
+
+  <CONN_BlackPearl.label>黑珍珠</CONN_BlackPearl.label>
+  <CONN_BlackPearl.description>一种经过改良的人造眼，拥有独特元件与完整的侧向触发机构。它功能众多，其中最出众的是夜视能力。黑珍珠曾是士兵之间重要的象征。其核心本质上是一个仿生人眼球模块，由阿尔法陆战队从机械族躯体中取出，在人类历史上的一段黑暗时期被当作战利品。它的名字源于其深邃的黑色，这让分析程序无法读取佩戴者的心思。由于对视力提升极大，如今工人也在使用它。（替换件）</CONN_BlackPearl.description>
+
+  <!-- ############## 悬浮足 ############## -->
+
+  <CONN_HoverFeet.label>悬浮足</CONN_HoverFeet.label>
+  <CONN_HoverFeet.description>一块自持式悬浮板，安装在直接与足内骨骼相连的导轨转接件上。曾几何时，城市世界的年轻街头帮派在作案后靠它逃之夭夭。它通过滑行提升移动速度。（替换件）</CONN_HoverFeet.description>
+
+  <!-- ############## 绿拇指 ############## -->
+
+  <CONN_Greenthumb.label>绿拇指</CONN_Greenthumb.label>
+  <CONN_Greenthumb.description>为快速殖民而专为农民打造的仿生模块。它取代拇指，成为可完全配置、功能完备的手指装置。掌内的一切都由一台学习型纳米计算机扫描，其中存有各种动植物的信息。数据扫描与加载时，指甲会发出绿光。（替换件）</CONN_Greenthumb.description>
+
+  <!-- ############## 压缩颚 ############## -->
+
+  <CONN_CompressionJaw.label>压缩颚</CONN_CompressionJaw.label>
+  <CONN_CompressionJaw.description>一种由液压伺服电机驱动的人造下颚替代品。玻璃钢外壳加黄金牙齿的组合能轻松咬碎钢铁，让佩戴者几秒内就把食物压碎。其出色的速度也让佩戴者说话更加轻松。（替换件）</CONN_CompressionJaw.description>
+
+  <!-- ############## 压缩胃 ############## -->
+
+  <CONN_CompressionStomach.label>压缩胃</CONN_CompressionStomach.label>
+  <CONN_CompressionStomach.description>一个强力的仿生胃，依靠内置液压伺服电机以难以想象的速度消化食物。由于集成了盐酸搅拌器，它甚至能吞下石头并在不久后将其消解。（替换件）</CONN_CompressionStomach.description>
+
+  <!-- ############## 手电筒 ############## -->
+
+  <CONN_FlashLight.label>手电筒</CONN_FlashLight.label>
+  <CONN_FlashLight.description>安装在耳侧、用来照亮黑暗的手电筒。（植入物）</CONN_FlashLight.description>
+
+  <!-- ############## 肌肉导线 ############## -->
+
+  <CONN_Musclewire.label>肌肉导线</CONN_Musclewire.label>
+  <CONN_Musclewire.description>将全身肌肉与导线通道完全融合，大幅提升移动速度与敏捷性。（植入物）</CONN_Musclewire.description>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <ANN_BlackPearl.label>黑珍珠</ANN_BlackPearl.label>
+  <ANN_BlackPearl.description>一种经过改良的人造眼，拥有独特元件与完整的侧向触发机构。它功能众多，其中最出众的是夜视能力。黑珍珠曾是士兵之间重要的象征。其核心本质上是一个仿生人眼球模块，由阿尔法陆战队从机械族躯体中取出，在人类历史上的一段黑暗时期被当作战利品。它的名字源于其深邃的黑色，这让分析程序无法读取佩戴者的心思。由于对视力提升极大，如今工人也在使用它。（替换件）</ANN_BlackPearl.description>
+  <ANN_HoverFeet.label>悬浮足</ANN_HoverFeet.label>
+  <ANN_HoverFeet.description>一块自持式悬浮板，安装在直接与足内骨骼相连的导轨转接件上。曾几何时，城市世界的年轻街头帮派在作案后靠它逃之夭夭。它通过滑行提升移动速度。（替换件）</ANN_HoverFeet.description>
+  <ANN_Greenthumb.label>绿拇指</ANN_Greenthumb.label>
+  <ANN_Greenthumb.description>为快速殖民而专为农民打造的仿生模块。它取代拇指，成为可完全配置、功能完备的手指装置。掌内的一切都由一台学习型纳米计算机扫描，其中存有各种动植物的信息。数据扫描与加载时，指甲会发出绿光。（替换件）</ANN_Greenthumb.description>
+  <ANN_CompressionJaw.label>压缩颚</ANN_CompressionJaw.label>
+  <ANN_CompressionJaw.description>一种由液压伺服电机驱动的人造下颚替代品。玻璃钢外壳加黄金牙齿的组合能轻松咬碎钢铁，让佩戴者几秒内就把食物压碎。其出色的速度也让佩戴者说话更加轻松。（替换件）</ANN_CompressionJaw.description>
+  <ANN_CompressionStomach.label>压缩胃</ANN_CompressionStomach.label>
+  <ANN_CompressionStomach.description>一个强力的仿生胃，依靠内置液压伺服电机以难以想象的速度消化食物。由于集成了盐酸搅拌器，它甚至能吞下石头并在不久后将其消解。（替换件）</ANN_CompressionStomach.description>
+  <ANN_FlashLight.label>手电筒</ANN_FlashLight.label>
+  <ANN_FlashLight.description>安装在耳侧、用来照亮黑暗的手电筒。（植入物）</ANN_FlashLight.description>
+  <ANN_Musclewire.label>肌肉导线</ANN_Musclewire.label>
+  <ANN_Musclewire.description>将全身肌肉与导线通道完全融合，大幅提升移动速度与敏捷性。（植入物）</ANN_Musclewire.description>
+
+</LanguageData>

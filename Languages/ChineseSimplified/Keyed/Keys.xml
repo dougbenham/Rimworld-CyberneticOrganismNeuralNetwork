@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CONN.ToMuchTraits>{0}已经有3个特质了</CONN.ToMuchTraits>
+	<CONN.NoPossibleTraitToRemove>{0}没有可移除的特质</CONN.NoPossibleTraitToRemove>
+
+	<CONN.SkillsLearned>{0}的所有技能都提升了2级。</CONN.SkillsLearned>
+	<CONN.NoSkillCanBeLearned>{0}已经不需要再学习技能了。</CONN.NoSkillCanBeLearned>
+
+	<CONN.CantGetOtherPassion>{0}无法再获得新的热情。</CONN.CantGetOtherPassion>
+	<CONN.GettingMinorPassion>{0}对{1}产生了次要热情</CONN.GettingMinorPassion>
+	<CONN.GettingMajorPassion>{0}对{1}产生了主要热情</CONN.GettingMajorPassion>
+
+	<CONN.CantGetMoreTraits>{0}无法获得更多特质</CONN.CantGetMoreTraits>
+
+	<CONN.BerserkLabel>切换狂暴</CONN.BerserkLabel>
+	<CONN.BerserkDesc>切换狂暴精神状态</CONN.BerserkDesc>
+
+	<CONN.Settings>控制论有机体与神经网络</CONN.Settings>
+	<CONN.EnableMote>启用手电筒与激光探测特效</CONN.EnableMote>
+	<CONN.EnableMoteDraft>仅在征召时显示手电筒与激光探测特效</CONN.EnableMoteDraft>
+	<CONN.MaxTraits>特质赋予器可赋予的特质数量上限</CONN.MaxTraits>
+
+</LanguageData>

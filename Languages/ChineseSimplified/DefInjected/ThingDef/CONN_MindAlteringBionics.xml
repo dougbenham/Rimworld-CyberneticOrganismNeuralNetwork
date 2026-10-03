@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 狂战士芯片 ############## -->
+
+  <CONN_BerserkerChip.label>狂战士芯片</CONN_BerserkerChip.label>
+  <CONN_BerserkerChip.description>一种能让使用者肾上腺素飙升的脑部植入物。它大幅提升使用者的近战能力，并有效抑制疼痛。虽然这确实能让人完成更多事情，但疼痛其实自有其用处——当你感觉不到疼痛时，很容易在不知不觉中受到重创。（植入物）</CONN_BerserkerChip.description>
+
+  <!-- ############## 思维扭转器 ############## -->
+
+  <CONN_BodyPartsArtificialtwist.label>思维扭转器</CONN_BodyPartsArtificialtwist.label>
+  <CONN_BodyPartsArtificialtwist.description>这种思维扭转装置能消除病人的一切悔意。它直接作用于使用者的大脑，切断多余脑区之间的连接。由于建立突触连接需要时间，它不会立刻消除想法。（植入物）</CONN_BodyPartsArtificialtwist.description>
+
+  <!-- ############## 缪斯芯片 ############## -->
+
+  <CONN_MuseChip.label>缪斯芯片</CONN_MuseChip.label>
+  <CONN_MuseChip.description>一种脑部植入物，内置名为「EVE」的虚拟人格，为生命体指引人生道路。它掌控着庞大的数据库，能筛选出所有相关信息，从而确保做出最优选择。（植入物）</CONN_MuseChip.description>
+
+  <!-- ############## 神经增强器 ############## -->
+
+  <CONN_NeuroEnhancer.label>神经增强器</CONN_NeuroEnhancer.label>
+  <CONN_NeuroEnhancer.description>一种脑部植入物，可作为接入星际框架的直接平台，且始终保持连接。一旦找到网络，它就能为使用者提供应对任何情况的信息。你可以在脑中看电视，只要有足够时间就能推演任何可能性；也可以在脑内创作艺术或绘制蓝图，一切仅凭想象构建。（植入物）</CONN_NeuroEnhancer.description>
+
+  <!-- ############## 战斗AI ############## -->
+
+  <CONN_CombatAI.label>战斗AI</CONN_CombatAI.label>
+  <CONN_CombatAI.description>一种脑部植入物，能在战斗中略微接管使用者的精准度。这项原始设计源自某个人形种族在星际战争中的计划——打造终极超级士兵。他们最终被击败并灭绝，但部分发明一直保留至今。（植入物）</CONN_CombatAI.description>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <ANN_BerserkerChip.label>狂战士芯片</ANN_BerserkerChip.label>
+  <ANN_BerserkerChip.description>一种能让使用者肾上腺素飙升的脑部植入物。它大幅提升使用者的近战能力，并有效抑制疼痛。虽然这确实能让人完成更多事情，但疼痛其实自有其用处——当你感觉不到疼痛时，很容易在不知不觉中受到重创。（植入物）</ANN_BerserkerChip.description>
+  <ANN_BodyPartsArtificialtwist.label>思维扭转器</ANN_BodyPartsArtificialtwist.label>
+  <ANN_BodyPartsArtificialtwist.description>这种思维扭转装置能消除病人的一切悔意。它直接作用于使用者的大脑，切断多余脑区之间的连接。由于建立突触连接需要时间，它不会立刻消除想法。（植入物）</ANN_BodyPartsArtificialtwist.description>
+  <ANN_MuseChip.label>缪斯芯片</ANN_MuseChip.label>
+  <ANN_MuseChip.description>一种脑部植入物，内置名为「EVE」的虚拟人格，为生命体指引人生道路。它掌控着庞大的数据库，能筛选出所有相关信息，从而确保做出最优选择。（植入物）</ANN_MuseChip.description>
+  <ANN_NeuroEnhancer.label>神经增强器</ANN_NeuroEnhancer.label>
+  <ANN_NeuroEnhancer.description>一种脑部植入物，可作为接入星际框架的直接平台，且始终保持连接。一旦找到网络，它就能为使用者提供应对任何情况的信息。你可以在脑中看电视，只要有足够时间就能推演任何可能性；也可以在脑内创作艺术或绘制蓝图，一切仅凭想象构建。（植入物）</ANN_NeuroEnhancer.description>
+  <ANN_CombatAI.label>战斗AI</ANN_CombatAI.label>
+  <ANN_CombatAI.description>一种脑部植入物，能在战斗中略微接管使用者的精准度。这项原始设计源自某个人形种族在星际战争中的计划——打造终极超级士兵。他们最终被击败并灭绝，但部分发明一直保留至今。（植入物）</ANN_CombatAI.description>
+
+</LanguageData>

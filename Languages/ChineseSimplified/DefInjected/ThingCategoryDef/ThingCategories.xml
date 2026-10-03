@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CONN_BodyPartsArtificial.label>控制论义体</CONN_BodyPartsArtificial.label>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <ANN_BodyPartsArtificial.label>控制论义体</ANN_BodyPartsArtificial.label>
+
+</LanguageData>

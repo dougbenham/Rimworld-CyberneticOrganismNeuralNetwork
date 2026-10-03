@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 变焦眼 ############## -->
+
+  <CONN_hediff_Zoom.label>变焦眼</CONN_hediff_Zoom.label>
+  <CONN_hediff_Zoom.description>一只强化人造眼。凭借生物凝胶神经连接、内置信号预处理器、自我修复模块、全光谱传感器与突触脉冲发射器，它几乎在各方面都胜过生物眼。原型神经连接器让使用者只需动念即可拉近或拉远视野。</CONN_hediff_Zoom.description>
+  <CONN_hediff_Zoom.labelNoun>一只仿生眼</CONN_hediff_Zoom.labelNoun>
+
+  <!-- ############## 能量拳 ############## -->
+
+  <CONN_hediff_EnergyFist.label>能量拳</CONN_hediff_EnergyFist.label>
+  <CONN_hediff_EnergyFist.description>为战斗而生的手部替代品，由机械手与腕内泵压系统组成。泵压系统让拳击既迅捷又可控。机械扳机让你能随心掌控它的蛮力——其强劲的速度加成依托神经连接器，并由超科技微型电池供能。</CONN_hediff_EnergyFist.description>
+  <CONN_hediff_EnergyFist.labelNoun>一只能量拳</CONN_hediff_EnergyFist.labelNoun>
+  <CONN_hediff_EnergyFist.comps.0.tools.0.label>手臂</CONN_hediff_EnergyFist.comps.0.tools.0.label>
+
+  <!-- ############## 弹性跟腱 ############## -->
+
+  <CONN_hediff_ElasticAchilles.label>弹性跟腱</CONN_hediff_ElasticAchilles.label>
+  <CONN_hediff_ElasticAchilles.description>这种仿生腿部模块能让人稳稳站立，哪怕骨头上已不剩一丝血肉。它旨在消除近战中人类最后的弱点——阿喀琉斯之踵，以更具弹性、更不敏感的版本取而代之。深受重型地面部队青睐。附带完成整条腿重建所需的全部部件。</CONN_hediff_ElasticAchilles.description>
+  <CONN_hediff_ElasticAchilles.labelNoun>一条仿生跟腱</CONN_hediff_ElasticAchilles.labelNoun>
+
+  <!-- ############## 独眼视镜 ############## -->
+
+  <CONN_hediff_CyclopsVisor.label>独眼视镜</CONN_hediff_CyclopsVisor.label>
+  <CONN_hediff_CyclopsVisor.description>集仿生眼与目标捕获系统于一体的混合装置，具备全套调节滤镜与数据扫描功能。它可通过连接中枢神经系统与记忆相连，从而增强视野与锐度。</CONN_hediff_CyclopsVisor.description>
+  <CONN_hediff_CyclopsVisor.labelNoun>一副独眼视镜</CONN_hediff_CyclopsVisor.labelNoun>
+
+  <!-- ############## 激光探测仪 ############## -->
+
+  <CONN_hediff_LaserDetection.label>激光探测仪</CONN_hediff_LaserDetection.label>
+  <CONN_hediff_LaserDetection.description>一种佩戴在耳侧的激光探测装置。激光扫描周边环境，并将所有重要数据投射到可伸展的眼罩显示屏上。它大幅提升视力，同时凭借优雅的自动标记功能增强目标捕获能力。</CONN_hediff_LaserDetection.description>
+  <CONN_hediff_LaserDetection.labelNoun>一台激光探测装置</CONN_hediff_LaserDetection.labelNoun>
+
+  <!-- ############## 传感耳 ############## -->
+
+  <CONN_hediff_SensoricEarside.label>传感耳</CONN_hediff_SensoricEarside.label>
+  <CONN_hediff_SensoricEarside.description>取代耳朵的传感听觉装置与目标捕获系统。它让你能听见远处一根针落地的声音。</CONN_hediff_SensoricEarside.description>
+  <CONN_hediff_SensoricEarside.labelNoun>一只传感耳</CONN_hediff_SensoricEarside.labelNoun>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <Trunken_hediff_Zoom.label>变焦眼</Trunken_hediff_Zoom.label>
+  <Trunken_hediff_Zoom.description>一只强化人造眼。凭借生物凝胶神经连接、内置信号预处理器、自我修复模块、全光谱传感器与突触脉冲发射器，它几乎在各方面都胜过生物眼。原型神经连接器让使用者只需动念即可拉近或拉远视野。</Trunken_hediff_Zoom.description>
+  <Trunken_hediff_Zoom.labelNoun>一只仿生眼</Trunken_hediff_Zoom.labelNoun>
+  <Trunken_hediff_EnergyFist.label>能量拳</Trunken_hediff_EnergyFist.label>
+  <Trunken_hediff_EnergyFist.description>为战斗而生的手部替代品，由机械手与腕内泵压系统组成。泵压系统让拳击既迅捷又可控。机械扳机让你能随心掌控它的蛮力——其强劲的速度加成依托神经连接器，并由超科技微型电池供能。</Trunken_hediff_EnergyFist.description>
+  <Trunken_hediff_EnergyFist.labelNoun>一只能量拳</Trunken_hediff_EnergyFist.labelNoun>
+  <Trunken_hediff_EnergyFist.comps.0.tools.0.label>手臂</Trunken_hediff_EnergyFist.comps.0.tools.0.label>
+  <Trunken_hediff_ElasticAchilles.label>弹性跟腱</Trunken_hediff_ElasticAchilles.label>
+  <Trunken_hediff_ElasticAchilles.description>这种仿生腿部模块能让人稳稳站立，哪怕骨头上已不剩一丝血肉。它旨在消除近战中人类最后的弱点——阿喀琉斯之踵，以更具弹性、更不敏感的版本取而代之。深受重型地面部队青睐。附带完成整条腿重建所需的全部部件。</Trunken_hediff_ElasticAchilles.description>
+  <Trunken_hediff_ElasticAchilles.labelNoun>一条仿生跟腱</Trunken_hediff_ElasticAchilles.labelNoun>
+  <Trunken_hediff_CyclopsVisor.label>独眼视镜</Trunken_hediff_CyclopsVisor.label>
+  <Trunken_hediff_CyclopsVisor.description>集仿生眼与目标捕获系统于一体的混合装置，具备全套调节滤镜与数据扫描功能。它可通过连接中枢神经系统与记忆相连，从而增强视野与锐度。</Trunken_hediff_CyclopsVisor.description>
+  <Trunken_hediff_CyclopsVisor.labelNoun>一副独眼视镜</Trunken_hediff_CyclopsVisor.labelNoun>
+  <Trunken_hediff_LaserDetection.label>激光探测仪</Trunken_hediff_LaserDetection.label>
+  <Trunken_hediff_LaserDetection.description>一种佩戴在耳侧的激光探测装置。激光扫描周边环境，并将所有重要数据投射到可伸展的眼罩显示屏上。它大幅提升视力，同时凭借优雅的自动标记功能增强目标捕获能力。</Trunken_hediff_LaserDetection.description>
+  <Trunken_hediff_LaserDetection.labelNoun>一台激光探测装置</Trunken_hediff_LaserDetection.labelNoun>
+  <Trunken_hediff_SensoricEarside.label>传感耳</Trunken_hediff_SensoricEarside.label>
+  <Trunken_hediff_SensoricEarside.description>取代耳朵的传感听觉装置与目标捕获系统。它让你能听见远处一根针落地的声音。</Trunken_hediff_SensoricEarside.description>
+  <Trunken_hediff_SensoricEarside.labelNoun>一只传感耳</Trunken_hediff_SensoricEarside.labelNoun>
+
+</LanguageData>

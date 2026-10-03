@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 神经模块增幅器 ############## -->
+
+  <CONN_NeuromodBooster.label>神经模块增幅器</CONN_NeuromodBooster.label>
+  <CONN_NeuromodBooster.description>神经调整器是一种刺入眼部的小型装置，用于高效地重新映射你现有的脑结构。通常会让各项技能得到小幅提升。</CONN_NeuromodBooster.description>
+  <CONN_NeuromodBooster.comps.0.useLabel>使用神经模块增幅器</CONN_NeuromodBooster.comps.0.useLabel>
+
+  <!-- ############## 洗脑器 ############## -->
+
+  <CONN_Brainwash.label>洗脑器</CONN_Brainwash.label>
+  <CONN_Brainwash.description>用于抹除记忆的洗脑装置。可移除与你的经历无关的任何人格特质。</CONN_Brainwash.description>
+  <CONN_Brainwash.comps.0.useLabel>使用洗脑器</CONN_Brainwash.comps.0.useLabel>
+
+  <!-- ############## 热情赋予器 ############## -->
+
+  <CONN_PassionGiver.label>热情赋予器</CONN_PassionGiver.label>
+  <CONN_PassionGiver.description>注射纳米机器人，它们会改变你的脑细胞，向你灌输一种随机的热情。</CONN_PassionGiver.description>
+  <CONN_PassionGiver.comps.0.useLabel>使用热情赋予器</CONN_PassionGiver.comps.0.useLabel>
+
+  <!-- ############## 特质赋予器 ############## -->
+
+  <CONN_TraitGiver.label>特质赋予器</CONN_TraitGiver.label>
+  <CONN_TraitGiver.description>注射纳米机器人，它们会改变你的脑细胞，向你灌输一种随机的人格特质。</CONN_TraitGiver.description>
+  <CONN_TraitGiver.comps.0.useLabel>使用特质赋予器</CONN_TraitGiver.comps.0.useLabel>
+
+  <!-- ############## 思维清除器 ############## -->
+
+  <NeurotrainersClearer.label>思维清除器</NeurotrainersClearer.label>
+  <NeurotrainersClearer.description>用于抹除短期记忆的洗脑装置。会影响当前的想法。</NeurotrainersClearer.description>
+  <NeurotrainersClearer.comps.0.useLabel>使用思维清除器</NeurotrainersClearer.comps.0.useLabel>
+
+  <!-- ############## 重塑器 ############## -->
+
+  <CONN_Reconditioner.label>重塑器</CONN_Reconditioner.label>
+  <CONN_Reconditioner.description>注射纳米机器人，它们会改变你的脑细胞，抹除你的长期记忆。本质上就是为使用者创造一段可供相信的全新人生。</CONN_Reconditioner.description>
+  <CONN_Reconditioner.comps.0.useLabel>使用重塑器</CONN_Reconditioner.comps.0.useLabel>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <ANN_NeuromodBooster.label>神经模块增幅器</ANN_NeuromodBooster.label>
+  <ANN_NeuromodBooster.description>神经调整器是一种刺入眼部的小型装置，用于高效地重新映射你现有的脑结构。通常会让各项技能得到小幅提升。</ANN_NeuromodBooster.description>
+  <ANN_NeuromodBooster.comps.0.useLabel>使用神经模块增幅器</ANN_NeuromodBooster.comps.0.useLabel>
+  <ANN_Brainwash.label>洗脑器</ANN_Brainwash.label>
+  <ANN_Brainwash.description>用于抹除记忆的洗脑装置。可移除与你的经历无关的任何人格特质。</ANN_Brainwash.description>
+  <ANN_Brainwash.comps.0.useLabel>使用洗脑器</ANN_Brainwash.comps.0.useLabel>
+  <ANN_PassionGiver.label>热情赋予器</ANN_PassionGiver.label>
+  <ANN_PassionGiver.description>注射纳米机器人，它们会改变你的脑细胞，向你灌输一种随机的热情。</ANN_PassionGiver.description>
+  <ANN_PassionGiver.comps.0.useLabel>使用热情赋予器</ANN_PassionGiver.comps.0.useLabel>
+  <ANN_TraitGiver.label>特质赋予器</ANN_TraitGiver.label>
+  <ANN_TraitGiver.description>注射纳米机器人，它们会改变你的脑细胞，向你灌输一种随机的人格特质。</ANN_TraitGiver.description>
+  <ANN_TraitGiver.comps.0.useLabel>使用特质赋予器</ANN_TraitGiver.comps.0.useLabel>
+  <ANN_Reconditioner.label>重塑器</ANN_Reconditioner.label>
+  <ANN_Reconditioner.description>注射纳米机器人，它们会改变你的脑细胞，抹除你的长期记忆。本质上就是为使用者创造一段可供相信的全新人生。</ANN_Reconditioner.description>
+  <ANN_Reconditioner.comps.0.useLabel>使用重塑器</ANN_Reconditioner.comps.0.useLabel>
+
+</LanguageData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 活力肺 ############## -->
+
+  <CONN_hediff_EnergeticLung.label>活力肺</CONN_hediff_EnergeticLung.label>
+  <CONN_hediff_EnergeticLung.description>一种配备液氧供给器的仿生肺，诞生于人类太空旅行、尚无氧气提取器的年代。它附有额外的液氧罐，可有效支撑长时间不呼吸。一对这样的肺便能构成人类呼吸系统的基础。这个独特的模块能瞬间取代多年的练习与自控。</CONN_hediff_EnergeticLung.description>
+  <CONN_hediff_EnergeticLung.labelNoun>一只仿生肺</CONN_hediff_EnergeticLung.labelNoun>
+
+  <!-- ############## 活力肾 ############## -->
+
+  <CONN_hediff_EnergeticKidney.label>活力肾</CONN_hediff_EnergeticKidney.label>
+  <CONN_hediff_EnergeticKidney.description>一种可提升耐力与力量的仿生肾。这种混合设计以反应式过滤器取代了肾单位。它会向体内释放免疫毒素，让使用者免受最致命疾病的侵害。</CONN_hediff_EnergeticKidney.description>
+  <CONN_hediff_EnergeticKidney.labelNoun>一只仿生肾</CONN_hediff_EnergeticKidney.labelNoun>
+
+  <!-- ############## 能量核心 ############## -->
+
+  <CONN_hediff_EnergyCore.label>能量核心</CONN_hediff_EnergyCore.label>
+  <CONN_hediff_EnergyCore.description>一颗先进的人造心脏。它以合成肌肉纤维营造出逼真的心跳，并配有高流量泵，以便在高度紧张时快速供血。凭借以机械族动力电池打造的高级超级核心，它几乎在各方面都胜过生物心脏。</CONN_hediff_EnergyCore.description>
+  <CONN_hediff_EnergyCore.labelNoun>一颗能量核心</CONN_hediff_EnergyCore.labelNoun>
+
+  <!-- ############## 自主杀毒体 ############## -->
+
+  <CONN_hediff_Autonomicviruskiller.label>自主杀毒体</CONN_hediff_Autonomicviruskiller.label>
+  <CONN_hediff_Autonomicviruskiller.description>以机械纳米抗体强化免疫系统，在血液循环中搜寻并消灭一切威胁。危险环境中的战斗医疗兵常使用它。</CONN_hediff_Autonomicviruskiller.description>
+  <CONN_hediff_Autonomicviruskiller.labelNoun>一个自主杀毒体</CONN_hediff_Autonomicviruskiller.labelNoun>
+
+  <!-- ############## 黄金眼 ############## -->
+
+  <CONN_hediff_Aurum.label>黄金眼</CONN_hediff_Aurum.label>
+  <CONN_hediff_Aurum.description>一种改造眼球，可在虹膜上投射屏幕。其间谍程序会分析当前的贸易伙伴、追踪对话、登记股票、比较市场价格，并模拟管理信用点。这种型号曾是商业公会之间暗中转移资金的工具。拥有者可以不受限制地绕过黑市防火墙。属于违禁商品。</CONN_hediff_Aurum.description>
+  <CONN_hediff_Aurum.labelNoun>一只黄金眼</CONN_hediff_Aurum.labelNoun>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <Trunken_hediff_EnergeticLung.label>活力肺</Trunken_hediff_EnergeticLung.label>
+  <Trunken_hediff_EnergeticLung.description>一种配备液氧供给器的仿生肺，诞生于人类太空旅行、尚无氧气提取器的年代。它附有额外的液氧罐，可有效支撑长时间不呼吸。一对这样的肺便能构成人类呼吸系统的基础。这个独特的模块能瞬间取代多年的练习与自控。</Trunken_hediff_EnergeticLung.description>
+  <Trunken_hediff_EnergeticLung.labelNoun>一只仿生肺</Trunken_hediff_EnergeticLung.labelNoun>
+  <Trunken_hediff_EnergeticKidney.label>活力肾</Trunken_hediff_EnergeticKidney.label>
+  <Trunken_hediff_EnergeticKidney.description>一种可提升耐力与力量的仿生肾。这种混合设计以反应式过滤器取代了肾单位。它会向体内释放免疫毒素，让使用者免受最致命疾病的侵害。</Trunken_hediff_EnergeticKidney.description>
+  <Trunken_hediff_EnergeticKidney.labelNoun>一只仿生肾</Trunken_hediff_EnergeticKidney.labelNoun>
+  <Trunken_hediff_EnergyCore.label>能量核心</Trunken_hediff_EnergyCore.label>
+  <Trunken_hediff_EnergyCore.description>一颗先进的人造心脏。它以合成肌肉纤维营造出逼真的心跳，并配有高流量泵，以便在高度紧张时快速供血。凭借以机械族动力电池打造的高级超级核心，它几乎在各方面都胜过生物心脏。</Trunken_hediff_EnergyCore.description>
+  <Trunken_hediff_EnergyCore.labelNoun>一颗能量核心</Trunken_hediff_EnergyCore.labelNoun>
+  <Trunken_hediff_Autonomicviruskiller.label>自主杀毒体</Trunken_hediff_Autonomicviruskiller.label>
+  <Trunken_hediff_Autonomicviruskiller.description>以机械纳米抗体强化免疫系统，在血液循环中搜寻并消灭一切威胁。危险环境中的战斗医疗兵常使用它。</Trunken_hediff_Autonomicviruskiller.description>
+  <Trunken_hediff_Autonomicviruskiller.labelNoun>一个自主杀毒体</Trunken_hediff_Autonomicviruskiller.labelNoun>
+  <Trunken_hediff_Aurum.label>黄金眼</Trunken_hediff_Aurum.label>
+  <Trunken_hediff_Aurum.description>一种改造眼球，可在虹膜上投射屏幕。其间谍程序会分析当前的贸易伙伴、追踪对话、登记股票、比较市场价格，并模拟管理信用点。这种型号曾是商业公会之间暗中转移资金的工具。拥有者可以不受限制地绕过黑市防火墙。属于违禁商品。</Trunken_hediff_Aurum.description>
+  <Trunken_hediff_Aurum.labelNoun>一只黄金眼</Trunken_hediff_Aurum.labelNoun>
+
+</LanguageData>

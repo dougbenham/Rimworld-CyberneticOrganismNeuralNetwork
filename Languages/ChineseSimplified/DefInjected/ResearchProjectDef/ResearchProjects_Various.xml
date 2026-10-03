@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CONN_ProductiveBionics.label>生产改良仿生体</CONN_ProductiveBionics.label>
+  <CONN_ProductiveBionics.description>学习制造能够提升殖民者日常工作效率与速度的仿生体。
+
+制造这些仿生体至少需要一名具备专业水平的工匠，安装则需要一名技术娴熟的医生。</CONN_ProductiveBionics.description>
+
+  <CONN_ProductiveAdvancedBionics.label>高级生产改良仿生体</CONN_ProductiveAdvancedBionics.label>
+  <CONN_ProductiveAdvancedBionics.description>学习制造能够提升殖民者日常工作效率与速度的高级仿生体。
+
+制造这些仿生体至少需要一名大师级工匠，安装则需要一名医术精湛的大师级医生。</CONN_ProductiveAdvancedBionics.description>
+
+  <CONN_CombatBionics.label>战斗改良仿生体</CONN_CombatBionics.label>
+  <CONN_CombatBionics.description>学习制造能够提升殖民者战斗能力的仿生体。
+
+制造这些仿生体至少需要一名具备专业水平的工匠，安装则需要一名技术娴熟的医生。</CONN_CombatBionics.description>
+
+  <CONN_CombatAdvancedBionics.label>高级战斗改良仿生体</CONN_CombatAdvancedBionics.label>
+  <CONN_CombatAdvancedBionics.description>学习制造能够提升殖民者战斗能力的高级仿生体。
+
+制造这些仿生体至少需要一名大师级工匠，安装则需要一名医术精湛的大师级医生。</CONN_CombatAdvancedBionics.description>
+
+  <CONN_MindAlteringBionics.label>心智改造仿生体</CONN_MindAlteringBionics.label>
+  <CONN_MindAlteringBionics.description>学习制造能够提升殖民者各项能力的心智改造仿生体。
+
+制造这些仿生体至少需要一名享誉一方的大师级工匠，安装则需要一名享誉一方的大师级医生。</CONN_MindAlteringBionics.description>
+
+</LanguageData>

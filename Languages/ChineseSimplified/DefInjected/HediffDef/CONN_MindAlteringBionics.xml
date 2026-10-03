@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 狂战士芯片 ############## -->
+
+  <CONN_hediff_BerserkerChip.label>狂战士芯片</CONN_hediff_BerserkerChip.label>
+  <CONN_hediff_BerserkerChip.description>一种能让使用者肾上腺素飙升的脑部植入物。它大幅提升使用者的近战能力，并有效抑制疼痛。虽然这确实能让人完成更多事情，但疼痛其实自有其用处——当你感觉不到疼痛时，很容易在不知不觉中受到重创。</CONN_hediff_BerserkerChip.description>
+  <CONN_hediff_BerserkerChip.labelNoun>一枚狂战士芯片</CONN_hediff_BerserkerChip.labelNoun>
+
+  <!-- ############## 思维扭转器 ############## -->
+
+  <CONN_hediff_Mindtwist.label>思维扭转器</CONN_hediff_Mindtwist.label>
+  <CONN_hediff_Mindtwist.description>这种思维扭转装置能消除病人的一切悔意。它直接作用于使用者的大脑，切断多余脑区之间的连接。由于建立突触连接需要时间，它不会立刻消除想法。</CONN_hediff_Mindtwist.description>
+  <CONN_hediff_Mindtwist.labelNoun>一台思维扭转器</CONN_hediff_Mindtwist.labelNoun>
+
+  <!-- ############## 缪斯芯片 ############## -->
+
+  <CONN_hediff_MuseChip.label>缪斯芯片</CONN_hediff_MuseChip.label>
+  <CONN_hediff_MuseChip.description>一种脑部植入物，内置名为「EVE」的虚拟人格，为生命体指引人生道路。它掌控着庞大的数据库，能筛选出所有相关信息，从而确保做出最优选择。</CONN_hediff_MuseChip.description>
+  <CONN_hediff_MuseChip.labelNoun>一枚缪斯芯片</CONN_hediff_MuseChip.labelNoun>
+
+  <!-- ############## 神经增强器 ############## -->
+
+  <CONN_hediff_NeuroEnhancer.label>神经增强器</CONN_hediff_NeuroEnhancer.label>
+  <CONN_hediff_NeuroEnhancer.description>一种脑部植入物，可作为接入星际框架的直接平台，且始终保持连接。一旦找到网络，它就能为使用者提供应对任何情况的信息。你可以在脑中看电视，只要有足够时间就能推演任何可能性；也可以在脑内创作艺术或绘制蓝图，一切仅凭想象构建。</CONN_hediff_NeuroEnhancer.description>
+  <CONN_hediff_NeuroEnhancer.labelNoun>一台神经增强器</CONN_hediff_NeuroEnhancer.labelNoun>
+
+  <!-- ############## 战斗AI ############## -->
+
+  <CONN_hediff_CombatAI.label>战斗AI</CONN_hediff_CombatAI.label>
+  <CONN_hediff_CombatAI.description>一种脑部植入物，能在战斗中略微接管使用者的精准度。这项原始设计源自某个人形种族在星际战争中的计划——打造终极超级士兵。他们最终被击败并灭绝，但部分发明一直保留至今。</CONN_hediff_CombatAI.description>
+  <CONN_hediff_CombatAI.labelNoun>一个战斗AI</CONN_hediff_CombatAI.labelNoun>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <Trunken_hediff_BerserkerChip.label>狂战士芯片</Trunken_hediff_BerserkerChip.label>
+  <Trunken_hediff_BerserkerChip.description>一种能让使用者肾上腺素飙升的脑部植入物。它大幅提升使用者的近战能力，并有效抑制疼痛。虽然这确实能让人完成更多事情，但疼痛其实自有其用处——当你感觉不到疼痛时，很容易在不知不觉中受到重创。</Trunken_hediff_BerserkerChip.description>
+  <Trunken_hediff_BerserkerChip.labelNoun>一枚狂战士芯片</Trunken_hediff_BerserkerChip.labelNoun>
+  <Trunken_hediff_Mindtwist.label>思维扭转器</Trunken_hediff_Mindtwist.label>
+  <Trunken_hediff_Mindtwist.description>这种思维扭转装置能消除病人的一切悔意。它直接作用于使用者的大脑，切断多余脑区之间的连接。由于建立突触连接需要时间，它不会立刻消除想法。</Trunken_hediff_Mindtwist.description>
+  <Trunken_hediff_Mindtwist.labelNoun>一台思维扭转器</Trunken_hediff_Mindtwist.labelNoun>
+  <Trunken_hediff_MuseChip.label>缪斯芯片</Trunken_hediff_MuseChip.label>
+  <Trunken_hediff_MuseChip.description>一种脑部植入物，内置名为「EVE」的虚拟人格，为生命体指引人生道路。它掌控着庞大的数据库，能筛选出所有相关信息，从而确保做出最优选择。</Trunken_hediff_MuseChip.description>
+  <Trunken_hediff_MuseChip.labelNoun>一枚缪斯芯片</Trunken_hediff_MuseChip.labelNoun>
+  <Trunken_hediff_NeuroEnhancer.label>神经增强器</Trunken_hediff_NeuroEnhancer.label>
+  <Trunken_hediff_NeuroEnhancer.description>一种脑部植入物，可作为接入星际框架的直接平台，且始终保持连接。一旦找到网络，它就能为使用者提供应对任何情况的信息。你可以在脑中看电视，只要有足够时间就能推演任何可能性；也可以在脑内创作艺术或绘制蓝图，一切仅凭想象构建。</Trunken_hediff_NeuroEnhancer.description>
+  <Trunken_hediff_NeuroEnhancer.labelNoun>一台神经增强器</Trunken_hediff_NeuroEnhancer.labelNoun>
+  <Trunken_hediff_CombatAI.label>战斗AI</Trunken_hediff_CombatAI.label>
+  <Trunken_hediff_CombatAI.description>一种脑部植入物，能在战斗中略微接管使用者的精准度。这项原始设计源自某个人形种族在星际战争中的计划——打造终极超级士兵。他们最终被击败并灭绝，但部分发明一直保留至今。</Trunken_hediff_CombatAI.description>
+  <Trunken_hediff_CombatAI.labelNoun>一个战斗AI</Trunken_hediff_CombatAI.labelNoun>
+
+</LanguageData>

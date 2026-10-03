@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 黑珍珠 ############## -->
+
+  <CONN_InstallBlackPearl.label>安装黑珍珠</CONN_InstallBlackPearl.label>
+  <CONN_InstallBlackPearl.description>安装黑珍珠。</CONN_InstallBlackPearl.description>
+  <CONN_InstallBlackPearl.jobString>正在安装黑珍珠。</CONN_InstallBlackPearl.jobString>
+
+  <!-- ############## 悬浮足 ############## -->
+
+  <CONN_InstallHoverFeet.label>安装悬浮足</CONN_InstallHoverFeet.label>
+  <CONN_InstallHoverFeet.description>安装悬浮足。</CONN_InstallHoverFeet.description>
+  <CONN_InstallHoverFeet.jobString>正在安装悬浮足。</CONN_InstallHoverFeet.jobString>
+
+  <!-- ############## 绿拇指 ############## -->
+
+  <CONN_InstallGreenthumb.label>安装绿拇指</CONN_InstallGreenthumb.label>
+  <CONN_InstallGreenthumb.description>安装绿拇指。</CONN_InstallGreenthumb.description>
+  <CONN_InstallGreenthumb.jobString>正在安装绿拇指。</CONN_InstallGreenthumb.jobString>
+
+  <!-- ############## 压缩颚 ############## -->
+
+  <CONN_InstallCompressionJaw.label>安装压缩颚</CONN_InstallCompressionJaw.label>
+  <CONN_InstallCompressionJaw.description>安装压缩颚。</CONN_InstallCompressionJaw.description>
+  <CONN_InstallCompressionJaw.jobString>正在安装压缩颚。</CONN_InstallCompressionJaw.jobString>
+
+  <!-- ############## 压缩胃 ############## -->
+
+  <CONN_InstallCompressionStomach.label>安装压缩胃</CONN_InstallCompressionStomach.label>
+  <CONN_InstallCompressionStomach.description>安装压缩胃。</CONN_InstallCompressionStomach.description>
+  <CONN_InstallCompressionStomach.jobString>正在安装压缩胃。</CONN_InstallCompressionStomach.jobString>
+
+  <!-- ############## 手电筒 ############## -->
+
+  <CONN_InstallFlashLight.label>安装手电筒</CONN_InstallFlashLight.label>
+  <CONN_InstallFlashLight.description>安装手电筒。</CONN_InstallFlashLight.description>
+  <CONN_InstallFlashLight.jobString>正在安装手电筒。</CONN_InstallFlashLight.jobString>
+
+  <CONN_RemoveFlashlight.label>取出手电筒</CONN_RemoveFlashlight.label>
+  <CONN_RemoveFlashlight.description>取出手电筒。</CONN_RemoveFlashlight.description>
+  <CONN_RemoveFlashlight.jobString>正在取出手电筒。</CONN_RemoveFlashlight.jobString>
+
+  <!-- ############## 肌肉导线 ############## -->
+
+  <CONN_InstallMusclewire.label>安装肌肉导线</CONN_InstallMusclewire.label>
+  <CONN_InstallMusclewire.description>安装肌肉导线。</CONN_InstallMusclewire.description>
+  <CONN_InstallMusclewire.jobString>正在安装肌肉导线。</CONN_InstallMusclewire.jobString>
+
+  <CONN_RemoveMuscleWire.label>取出肌肉导线</CONN_RemoveMuscleWire.label>
+  <CONN_RemoveMuscleWire.description>取出肌肉导线。</CONN_RemoveMuscleWire.description>
+  <CONN_RemoveMuscleWire.jobString>正在取出肌肉导线。</CONN_RemoveMuscleWire.jobString>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <ANN_InstallBlackPearl.label>安装黑珍珠</ANN_InstallBlackPearl.label>
+  <ANN_InstallBlackPearl.description>安装黑珍珠。</ANN_InstallBlackPearl.description>
+  <ANN_InstallBlackPearl.jobString>正在安装黑珍珠。</ANN_InstallBlackPearl.jobString>
+  <ANN_InstallHoverFeet.label>安装悬浮足</ANN_InstallHoverFeet.label>
+  <ANN_InstallHoverFeet.description>安装悬浮足。</ANN_InstallHoverFeet.description>
+  <ANN_InstallHoverFeet.jobString>正在安装悬浮足。</ANN_InstallHoverFeet.jobString>
+  <ANN_InstallGreenthumb.label>安装绿拇指</ANN_InstallGreenthumb.label>
+  <ANN_InstallGreenthumb.description>安装绿拇指。</ANN_InstallGreenthumb.description>
+  <ANN_InstallGreenthumb.jobString>正在安装绿拇指。</ANN_InstallGreenthumb.jobString>
+  <ANN_InstallCompressionJaw.label>安装压缩颚</ANN_InstallCompressionJaw.label>
+  <ANN_InstallCompressionJaw.description>安装压缩颚。</ANN_InstallCompressionJaw.description>
+  <ANN_InstallCompressionJaw.jobString>正在安装压缩颚。</ANN_InstallCompressionJaw.jobString>
+  <ANN_InstallCompressionStomach.label>安装压缩胃</ANN_InstallCompressionStomach.label>
+  <ANN_InstallCompressionStomach.description>安装压缩胃。</ANN_InstallCompressionStomach.description>
+  <ANN_InstallCompressionStomach.jobString>正在安装压缩胃。</ANN_InstallCompressionStomach.jobString>
+  <ANN_InstallFlashLight.label>安装手电筒</ANN_InstallFlashLight.label>
+  <ANN_InstallFlashLight.description>安装手电筒。</ANN_InstallFlashLight.description>
+  <ANN_InstallFlashLight.jobString>正在安装手电筒。</ANN_InstallFlashLight.jobString>
+  <ANN_InstallMusclewire.label>安装肌肉导线</ANN_InstallMusclewire.label>
+  <ANN_InstallMusclewire.description>安装肌肉导线。</ANN_InstallMusclewire.description>
+  <ANN_InstallMusclewire.jobString>正在安装肌肉导线。</ANN_InstallMusclewire.jobString>
+
+</LanguageData>

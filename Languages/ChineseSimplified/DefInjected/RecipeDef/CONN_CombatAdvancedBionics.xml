@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## 机械眼 ############## -->
+
+  <CONN_InstallIndependentEye.label>安装机械眼</CONN_InstallIndependentEye.label>
+  <CONN_InstallIndependentEye.description>安装机械眼。</CONN_InstallIndependentEye.description>
+  <CONN_InstallIndependentEye.jobString>正在安装机械眼。</CONN_InstallIndependentEye.jobString>
+
+  <!-- ############## 能量脊柱 ############## -->
+
+  <CONN_InstallEnergyLink.label>安装能量脊柱</CONN_InstallEnergyLink.label>
+  <CONN_InstallEnergyLink.description>安装能量脊柱。</CONN_InstallEnergyLink.description>
+  <CONN_InstallEnergyLink.jobString>正在安装能量脊柱。</CONN_InstallEnergyLink.jobString>
+
+  <!-- ############## 外置刀刃 ############## -->
+
+  <CONN_InstallOuterBlade.label>安装外置刀刃</CONN_InstallOuterBlade.label>
+  <CONN_InstallOuterBlade.description>安装外置刀刃。</CONN_InstallOuterBlade.description>
+  <CONN_InstallOuterBlade.jobString>正在安装外置刀刃。</CONN_InstallOuterBlade.jobString>
+
+  <!-- ############## 动力臂 ############## -->
+
+  <CONN_InstallPowerArms.label>安装动力臂</CONN_InstallPowerArms.label>
+  <CONN_InstallPowerArms.description>安装动力臂。</CONN_InstallPowerArms.description>
+  <CONN_InstallPowerArms.jobString>正在安装动力臂。</CONN_InstallPowerArms.jobString>
+
+  <!-- ############## 暗影行者 ############## -->
+
+  <CONN_InstallShadowrunner.label>安装暗影行者</CONN_InstallShadowrunner.label>
+  <CONN_InstallShadowrunner.description>安装暗影行者。</CONN_InstallShadowrunner.description>
+  <CONN_InstallShadowrunner.jobString>正在安装暗影行者。</CONN_InstallShadowrunner.jobString>
+
+  <!-- ############## 外骨骼装甲 ############## -->
+
+  <CONN_InstallExoskeletonArmor.label>安装外骨骼装甲</CONN_InstallExoskeletonArmor.label>
+  <CONN_InstallExoskeletonArmor.description>安装外骨骼装甲。</CONN_InstallExoskeletonArmor.description>
+  <CONN_InstallExoskeletonArmor.jobString>正在安装外骨骼装甲。</CONN_InstallExoskeletonArmor.jobString>
+
+  <CONN_RemoveExoskeletonArmor.label>取出外骨骼装甲</CONN_RemoveExoskeletonArmor.label>
+  <CONN_RemoveExoskeletonArmor.description>取出外骨骼装甲。</CONN_RemoveExoskeletonArmor.description>
+  <CONN_RemoveExoskeletonArmor.jobString>正在取出外骨骼装甲。</CONN_RemoveExoskeletonArmor.jobString>
+
+  <!-- ############## 真皮镀层 ############## -->
+
+  <CONN_InstallDermalplating.label>安装真皮镀层</CONN_InstallDermalplating.label>
+  <CONN_InstallDermalplating.description>安装真皮镀层。</CONN_InstallDermalplating.description>
+  <CONN_InstallDermalplating.jobString>正在安装真皮镀层。</CONN_InstallDermalplating.jobString>
+
+  <CONN_RemoveDermaplating.label>取出真皮镀层</CONN_RemoveDermaplating.label>
+  <CONN_RemoveDermaplating.description>取出真皮镀层。</CONN_RemoveDermaplating.description>
+  <CONN_RemoveDermaplating.jobString>正在取出真皮镀层。</CONN_RemoveDermaplating.jobString>
+
+  <!-- ############## 狮心 ############## -->
+
+  <CONN_InstallLionheart.label>安装狮心</CONN_InstallLionheart.label>
+  <CONN_InstallLionheart.description>安装狮心。</CONN_InstallLionheart.description>
+  <CONN_InstallLionheart.jobString>正在安装狮心。</CONN_InstallLionheart.jobString>
+
+  <!-- ===== 1.1-1.3 旧版 defName 兼容条目（ANN_/Trunken_） ===== -->
+  <ANN_InstallIndependentEye.label>安装机械眼</ANN_InstallIndependentEye.label>
+  <ANN_InstallIndependentEye.description>安装机械眼。</ANN_InstallIndependentEye.description>
+  <ANN_InstallIndependentEye.jobString>正在安装机械眼。</ANN_InstallIndependentEye.jobString>
+  <ANN_InstallEnergyLink.label>安装能量脊柱</ANN_InstallEnergyLink.label>
+  <ANN_InstallEnergyLink.description>安装能量脊柱。</ANN_InstallEnergyLink.description>
+  <ANN_InstallEnergyLink.jobString>正在安装能量脊柱。</ANN_InstallEnergyLink.jobString>
+  <ANN_InstallOuterBlade.label>安装外置刀刃</ANN_InstallOuterBlade.label>
+  <ANN_InstallOuterBlade.description>安装外置刀刃。</ANN_InstallOuterBlade.description>
+  <ANN_InstallOuterBlade.jobString>正在安装外置刀刃。</ANN_InstallOuterBlade.jobString>
+  <ANN_InstallPowerArms.label>安装动力臂</ANN_InstallPowerArms.label>
+  <ANN_InstallPowerArms.description>安装动力臂。</ANN_InstallPowerArms.description>
+  <ANN_InstallPowerArms.jobString>正在安装动力臂。</ANN_InstallPowerArms.jobString>
+  <ANN_InstallShadowrunner.label>安装暗影行者</ANN_InstallShadowrunner.label>
+  <ANN_InstallShadowrunner.description>安装暗影行者。</ANN_InstallShadowrunner.description>
+  <ANN_InstallShadowrunner.jobString>正在安装暗影行者。</ANN_InstallShadowrunner.jobString>
+  <ANN_InstallExoskeletonArmor.label>安装外骨骼装甲</ANN_InstallExoskeletonArmor.label>
+  <ANN_InstallExoskeletonArmor.description>安装外骨骼装甲。</ANN_InstallExoskeletonArmor.description>
+  <ANN_InstallExoskeletonArmor.jobString>正在安装外骨骼装甲。</ANN_InstallExoskeletonArmor.jobString>
+  <ANN_InstallDermalplating.label>安装真皮镀层</ANN_InstallDermalplating.label>
+  <ANN_InstallDermalplating.description>安装真皮镀层。</ANN_InstallDermalplating.description>
+  <ANN_InstallDermalplating.jobString>正在安装真皮镀层。</ANN_InstallDermalplating.jobString>
+  <ANN_InstallLionheart.label>安装狮心</ANN_InstallLionheart.label>
+  <ANN_InstallLionheart.description>安装狮心。</ANN_InstallLionheart.description>
+  <ANN_InstallLionheart.jobString>正在安装狮心。</ANN_InstallLionheart.jobString>
+
+</LanguageData>
